@@ -549,7 +549,7 @@
 			<relativePackagePaths>
 				<Element text="UILeaders"/>
 				<Element text="LeaderBackgrounds"/>
-				<Element text="LEADER_JRA_LEADER_CUSTOM"/>
+				<Element text="LEADER_EPN_LEADER_CUSTOM"/>
 				<Element text="Icons"/>
 			</relativePackagePaths>
 		</Element>
