@@ -74,7 +74,7 @@ VALUES	('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CIVILIZATION_EPN_CIV_CUSTOM_NAME',	'
 -- CityNames			
 ----------------------------------------------------------------------------------------------------------------------------		
 INSERT INTO CityNames	
-		(CivilizationType,			CityName)	
+		(CivilizationType,				CityName)
 VALUES	('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITY_NAME_EPN_CIV_CUSTOM_2'),	
 		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITY_NAME_EPN_CIV_CUSTOM_3'),	
 		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITY_NAME_EPN_CIV_CUSTOM_4'),	
@@ -107,18 +107,18 @@ VALUES	('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITY_NAME_EPN_CIV_CUSTOM_2'),
 ----------------------------------------------------------------------------------------------------------------------------
 -- CivilizationCitizenNames
 ----------------------------------------------------------------------------------------------------------------------------	
-INSERT INTO CivilizationCitizenNames	
-		(CivilizationType,			CitizenName,								Female,		Modern)
-VALUES	('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_1',				0,			0),
-		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_2',				0,			0),
-		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_3',				0,			0),
-		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_4',				0,			0),
-		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_5',				0,			0),
-		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_6',				0,			0),
-		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_7',				0,			0),
-		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_8',				0,			0),
-		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_9',				0,			0),
-		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_10',				0,			0),
+INSERT INTO CivilizationCitizenNames
+		(CivilizationType,				CitizenName,									Female,		Modern)
+VALUES	('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_1',			0,			0),
+		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_2',			0,			0),
+		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_3',			0,			0),
+		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_4',			0,			0),
+		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_5',			0,			0),
+		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_6',			0,			0),
+		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_7',			0,			0),
+		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_8',			0,			0),
+		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_9',			0,			0),
+		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_10',			0,			0),
 		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_FEMALE_1',			1,			0),
 		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_FEMALE_2',			1,			0),
 		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_FEMALE_3',			1,			0),
@@ -138,60 +138,41 @@ VALUES	('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_1',				0
 		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_MALE_7',		0,			1),
 		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_MALE_8',		0,			1),
 		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_MALE_9',		0,			1),
-		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_MALE_10',		0,			1),
-		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_1',		1,			1),
-		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_2',		1,			1),
-		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_3',		1,			1),
-		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_4',		1,			1),
-		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_5',		1,			1),
-		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_6',		1,			1),
-		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_7',		1,			1),
-		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_8',		1,			1),
-		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_9',		1,			1),
-		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_10',	1,			1);	
+		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_MALE_10',	0,			1),
+		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_1',	1,			1),
+		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_2',	1,			1),
+		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_3',	1,			1),
+		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_4',	1,			1),
+		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_5',	1,			1),
+		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_6',	1,			1),
+		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_7',	1,			1),
+		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_8',	1,			1),
+		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_9',	1,			1),
+		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_10',	1,			1);
 ----------------------------------------------------------------------------------------------------------------------------			
 -- CivilizationInfo			
 ----------------------------------------------------------------------------------------------------------------------------		
-INSERT INTO CivilizationInfo	
-		(CivilizationType,			Header,						Caption,								SortIndex)	
+INSERT INTO CivilizationInfo
+		(CivilizationType,				Header,						Caption,									SortIndex)
 VALUES	('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CIVINFO_LOCATION',		'LOC_CIVINFO_EPN_CIV_CUSTOM_LOCATION',		10),	
 		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CIVINFO_SIZE',			'LOC_CIVINFO_EPN_CIV_CUSTOM_SIZE',			20),	
-		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CIVINFO_POPULATION',	'LOC_CIVINFO_EPN_CIV_CUSTOM_POPULATION',		30),	
-		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CIVINFO_CAPITAL', 		'LOC_CIVINFO_EPN_CIV_CUSTOM_CAPITAL',			40);
+		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CIVINFO_POPULATION',	'LOC_CIVINFO_EPN_CIV_CUSTOM_POPULATION',	30),	
+		('CIVILIZATION_EPN_CIV_CUSTOM',	'LOC_CIVINFO_CAPITAL', 		'LOC_CIVINFO_EPN_CIV_CUSTOM_CAPITAL',		40);
 ----------------------------------------------------------------------------------------------------------------------------
 -- CivilizationLeaders
 ----------------------------------------------------------------------------------------------------------------------------	
-INSERT INTO CivilizationLeaders	
-		(CivilizationType,						LeaderType,			CapitalName)
-VALUES	('CIVILIZATION_EPN_CIV_CUSTOM',	'LEADER_EPN_LEADER_CUSTOM',		'LOC_CITY_NAME_EPN_CIV_CUSTOM_1');
+INSERT INTO CivilizationLeaders
+		(CivilizationType,					LeaderType,						CapitalName)
+VALUES	('CIVILIZATION_EPN_CIV_CUSTOM',		'LEADER_EPN_LEADER_CUSTOM',		'LOC_CITY_NAME_EPN_CIV_CUSTOM_1');
 
 
 
-
-
-
---------------------------------------------------------------------------------------------------------------------------		
--- BackGround Art		
---------------------------------------------------------------------------------------------------------------------------			
-INSERT INTO DiplomacyInfo			
+--------------------------------------------------------------------------------------------------------------------------
+-- BackGround Art
+--------------------------------------------------------------------------------------------------------------------------
+INSERT INTO DiplomacyInfo
 		(Type,								BackgroundImage)
 VALUES	('LEADER_EPN_LEADER_CUSTOM',		'ART_LEADER_LEADER_CUSTOM.dds');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -199,26 +180,26 @@ VALUES	('LEADER_EPN_LEADER_CUSTOM',		'ART_LEADER_LEADER_CUSTOM.dds');
 -- LEADERS: TRAITS
 --==========================================================================================================================
 -- Types
---------------------------------------------------------------------------------------------------------------------------	
-INSERT INTO Types	
+--------------------------------------------------------------------------------------------------------------------------
+INSERT INTO Types
 		(Type,														Kind)
-VALUES	('TRAIT_LEADER_EPN_LEADER_CUSTOM_ECO',						'KIND_TRAIT');	
---------------------------------------------------------------------------------------------------------------------------			
--- Traits			
---------------------------------------------------------------------------------------------------------------------------				
-INSERT INTO Traits				
+VALUES	('TRAIT_LEADER_EPN_LEADER_CUSTOM_ECO',						'KIND_TRAIT');
+--------------------------------------------------------------------------------------------------------------------------
+-- Traits
+--------------------------------------------------------------------------------------------------------------------------
+INSERT INTO Traits
 		(TraitType,													Name,													Description)
-VALUES	('TRAIT_LEADER_EPN_LEADER_CUSTOM_ECO',						'LOC_TRAIT_LEADER_EPN_LEADER_CUSTOM_ECO_NAME',			'LOC_TRAIT_LEADER_EPN_LEADER_CUSTOM_ECO_DESCRIPTION');	
---------------------------------------------------------------------------------------------------------------------------		
--- TraitModifiers		
---------------------------------------------------------------------------------------------------------------------------			
-INSERT INTO TraitModifiers			
+VALUES	('TRAIT_LEADER_EPN_LEADER_CUSTOM_ECO',						'LOC_TRAIT_LEADER_EPN_LEADER_CUSTOM_ECO_NAME',			'LOC_TRAIT_LEADER_EPN_LEADER_CUSTOM_ECO_DESCRIPTION');
+--------------------------------------------------------------------------------------------------------------------------
+-- TraitModifiers
+--------------------------------------------------------------------------------------------------------------------------
+INSERT INTO TraitModifiers
 		(TraitType,													ModifierId)
 VALUES	('TRAIT_LEADER_EPN_LEADER_CUSTOM_ECO',						'EPN_LEADER_CUSTOM_ECO_EXTRA_SLOT_1');
 --------------------------------------------------------------------------------------------------------------------------
 -- Modifiers
 --------------------------------------------------------------------------------------------------------------------------
-INSERT INTO Modifiers	
+INSERT INTO Modifiers
 		(ModifierId,												ModifierType)
 VALUES	('EPN_LEADER_CUSTOM_ECO_EXTRA_SLOT_1',						'MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER');
 --------------------------------------------------------------------------------------------------------------------------
@@ -230,50 +211,40 @@ VALUES	('EPN_LEADER_CUSTOM_ECO_EXTRA_SLOT_1',						'GovernmentSlotType',			'SLOT
 
 
 
-
-
-
-
-
-
-
-
-
-
 --==========================================================================================================================
 -- CIVILIZATIONS: TRAITS
 --==========================================================================================================================
 -- Types
---------------------------------------------------------------------------------------------------------------------------	
-INSERT INTO Types	
+--------------------------------------------------------------------------------------------------------------------------
+INSERT INTO Types
 		(Type,													Kind)
 VALUES	('TRAIT_CIVILIZATION_EPN_GLORY',						'KIND_TRAIT'),
-		('TRAIT_CIVILIZATION_BUILDING_EPN_CUSTOM',				'KIND_TRAIT');	
---------------------------------------------------------------------------------------------------------------------------			
--- Traits			
---------------------------------------------------------------------------------------------------------------------------				
-INSERT INTO Traits				
-		(TraitType,													Name,													Description)
-VALUES	('TRAIT_CIVILIZATION_EPN_GLORY',					'LOC_TRAIT_CIVILIZATION_EPN_GLORY_NAME',				'LOC_TRAIT_CIVILIZATION_EPN_GLORY_DESCRIPTION'),
-		('TRAIT_CIVILIZATION_BUILDING_EPN_CUSTOM',			'LOC_TRAIT_CIVILIZATION_BUILDING_EPN_CUSTOM_NAME',		'LOC_TRAIT_CIVILIZATION_BUILDING_EPN_CUSTOM_DESCRIPTION');	
---------------------------------------------------------------------------------------------------------------------------		
--- TraitModifiers		
---------------------------------------------------------------------------------------------------------------------------			
-INSERT INTO TraitModifiers			
+		('TRAIT_CIVILIZATION_BUILDING_EPN_HANYANGDOSEONG',		'KIND_TRAIT');
+--------------------------------------------------------------------------------------------------------------------------
+-- Traits
+--------------------------------------------------------------------------------------------------------------------------
+INSERT INTO Traits
+		(TraitType,													Name,															Description)
+VALUES	('TRAIT_CIVILIZATION_EPN_GLORY',							'LOC_TRAIT_CIVILIZATION_EPN_GLORY_NAME',						'LOC_TRAIT_CIVILIZATION_EPN_GLORY_DESCRIPTION'),
+		('TRAIT_CIVILIZATION_BUILDING_EPN_HANYANGDOSEONG',			'LOC_TRAIT_CIVILIZATION_BUILDING_EPN_HANYANGDOSEONG_NAME',		'LOC_TRAIT_CIVILIZATION_BUILDING_EPN_HANYANGDOSEONG_DESCRIPTION');
+--------------------------------------------------------------------------------------------------------------------------
+-- TraitModifiers
+--------------------------------------------------------------------------------------------------------------------------
+INSERT INTO TraitModifiers
 		(TraitType,											ModifierId)
 VALUES	('TRAIT_CIVILIZATION_EPN_GLORY',					'EPN_TRAIT_CITY_INNER_STRENGTH'),
 		('TRAIT_CIVILIZATION_EPN_GLORY',					'EPN_TRAIT_CITY_OUTER_STRENGTH'),
 		('TRAIT_CIVILIZATION_EPN_GLORY',					'EPN_TRAIT_CITY_RANGED_STRENGTH'),
-		('TRAIT_CIVILIZATION_EPN_GLORY',					'EPN_TRAIT_FRIENDLY_MOVEMENT');																				
+		('TRAIT_CIVILIZATION_EPN_GLORY',					'EPN_TRAIT_FRIENDLY_MOVEMENT');
 --------------------------------------------------------------------------------------------------------------------------
 -- Modifiers
 --------------------------------------------------------------------------------------------------------------------------
-INSERT INTO Modifiers	
+INSERT INTO Modifiers
 		(ModifierId,												ModifierType)
 VALUES	('EPN_TRAIT_CITY_INNER_STRENGTH',							'MODIFIER_PLAYER_CITIES_ADJUST_INNER_DEFENSE'),
 		('EPN_TRAIT_CITY_OUTER_STRENGTH',							'MODIFIER_PLAYER_CITIES_ADJUST_OUTER_DEFENSE'),
 		('EPN_TRAIT_CITY_RANGED_STRENGTH',							'MODIFIER_PLAYER_CITIES_ADJUST_RANGED_STRIKE'),
-		('EPN_TRAIT_FRIENDLY_MOVEMENT',								'MODIFIER_PLAYER_UNITS_ADJUST_FRIENDLY_TERRITORY_START_MOVEMENT');		
+		('EPN_TRAIT_FRIENDLY_MOVEMENT',								'MODIFIER_PLAYER_UNITS_ADJUST_FRIENDLY_TERRITORY_START_MOVEMENT');
 --------------------------------------------------------------------------------------------------------------------------
 -- ModifierArguments
 --------------------------------------------------------------------------------------------------------------------------
@@ -282,30 +253,16 @@ INSERT INTO ModifierArguments
 VALUES	('EPN_TRAIT_CITY_INNER_STRENGTH',							'Amount',					15),
 		('EPN_TRAIT_CITY_OUTER_STRENGTH',							'Amount',					15),
 		('EPN_TRAIT_CITY_RANGED_STRENGTH',							'Amount',					15),
-		('EPN_TRAIT_FRIENDLY_MOVEMENT',								'Amount',					1);		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		('EPN_TRAIT_FRIENDLY_MOVEMENT',								'Amount',					1);
 
 
 
 --------------------------------------------------------------------------------------------------------------------------
 -- LeaderTraits
 --------------------------------------------------------------------------------------------------------------------------	
-INSERT INTO LeaderTraits	
-		(LeaderType,			TraitType)
-VALUES	('LEADER_EPN_LEADER_CUSTOM',	'TRAIT_LEADER_EPN_LEADER_CUSTOM_ECO');	
+INSERT INTO LeaderTraits
+		(LeaderType,					TraitType)
+VALUES	('LEADER_EPN_LEADER_CUSTOM',	'TRAIT_LEADER_EPN_LEADER_CUSTOM_ECO');
 
 
 
@@ -315,11 +272,4 @@ VALUES	('LEADER_EPN_LEADER_CUSTOM',	'TRAIT_LEADER_EPN_LEADER_CUSTOM_ECO');
 INSERT INTO CivilizationTraits	
 		(TraitType,															CivilizationType)
 VALUES	('TRAIT_CIVILIZATION_EPN_GLORY',									'CIVILIZATION_EPN_CIV_CUSTOM'),
-		('TRAIT_CIVILIZATION_BUILDING_EPN_CUSTOM',							'CIVILIZATION_EPN_CIV_CUSTOM');
-
-
-
-
-
-
-
+		('TRAIT_CIVILIZATION_BUILDING_EPN_HANYANGDOSEONG',					'CIVILIZATION_EPN_CIV_CUSTOM');

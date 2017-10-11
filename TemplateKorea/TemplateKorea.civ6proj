@@ -17,8 +17,8 @@
     <SupportsHotSeat>true</SupportsHotSeat>
     <AssemblyName>TemplateKorea</AssemblyName>
     <RootNamespace>TemplateKorea</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Core/Joshs_Template_Config.sql</File><File>Core/Joshs_Template_Buildings.xml</File></UpdateDatabase><UpdateIcons id="NewAction"><File>Core/Joshs_Template_Icons.xml</File></UpdateIcons><UpdateText id="NewAction"><File>Core/Joshs_Template_GameText.xml</File></UpdateText><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Joshs_Template_GameDefines.sql</File><File>Core/Joshs_Template_Buildings.xml</File></UpdateDatabase><UpdateIcons id="NewAction"><File>Core/Joshs_Template_Icons.xml</File></UpdateIcons><UpdateText id="NewAction"><File>Core/Joshs_Template_GameText.xml</File></UpdateText><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Core/Config.sql</File><File>Core/Buildings.xml</File></UpdateDatabase><UpdateIcons id="NewAction"><File>Core/Icons.xml</File></UpdateIcons><UpdateText id="NewAction"><File>Core/GameText.xml</File></UpdateText><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/GameDefines.sql</File><File>Core/Buildings.xml</File></UpdateDatabase><UpdateIcons id="NewAction"><File>Core/Icons.xml</File></UpdateIcons><UpdateText id="NewAction"><File>Core/GameText.xml</File></UpdateText><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -39,19 +39,19 @@
     <Content Include="ArtDefs\Leaders.artdef">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Joshs_Template_Buildings.xml">
+    <Content Include="Core\Buildings.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Joshs_Template_Config.sql">
+    <Content Include="Core\Config.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Joshs_Template_GameDefines.sql">
+    <Content Include="Core\GameDefines.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Joshs_Template_GameText.xml">
+    <Content Include="Core\GameText.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Joshs_Template_Icons.xml">
+    <Content Include="Core\Icons.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ART_LEADER_LEADER_CUSTOM.dds">

@@ -22,8 +22,8 @@ VALUES	('CIVILIZATION_EPN_CIV_CUSTOM',			'LEADER_LEADER_CUSTOM_NEUTRAL.dds',		'L
 -- PlayerItems
 -------------------------------------	
 INSERT INTO PlayerItems	
-		(CivilizationType,					LeaderType,					Type,							Icon,								Name,									  	Description,									SortIndex)
-VALUES	('CIVILIZATION_EPN_CIV_CUSTOM',		'LEADER_EPN_LEADER_CUSTOM',	'BUILDING_EPN_CUSTOM',				'ICON_BUILDING_EPN_CUSTOM',		'LOC_BUILDING_EPN_CUSTOM_NAME',			'LOC_BUILDING_EPN_CUSTOM_DESCRIPTION',			30);
+		(CivilizationType,					LeaderType,					Type,							Icon,								Name,									  	Description,								SortIndex)
+VALUES	('CIVILIZATION_EPN_CIV_CUSTOM',		'LEADER_EPN_LEADER_CUSTOM',	'BUILDING_EPN_HANYANGDOSEONG',				'ICON_BUILDING_EPN_HANYANGDOSEONG',		'LOC_BUILDING_EPN_HANYANGDOSEONG_NAME',			'LOC_BUILDING_EPN_HANYANGDOSEONG_DESCRIPTION',			30);
 
 
 

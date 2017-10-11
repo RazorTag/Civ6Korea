@@ -2,6 +2,31 @@
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
 <GameData>
 	<LocalizedText>
+		
+		<!--Traits-->
+		<Row Tag="LOC_TRAIT_LEADER_EPN_LEADER_CUSTOM_ECO_NAME" Language="en_US">
+			<Text>Hangul</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_EPN_LEADER_CUSTOM_ECO_DESCRIPTION" Language="en_US">
+			<Text>Additional Economic policy slot in any government.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_EPN_GLORY_NAME" Language="en_US">
+			<Text>Glorious Korea</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_EPN_GLORY_DESCRIPTION" Language="en_US">
+			<Text>Cities defenses receive +15 combat strength. Units receive +1 movement in friendly territory.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_EPN_HANYANGDOSEONG_NAME" Language="en_US">
+			<Text>Hanyangdoseong</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_EPN_HANYANGDOSEONG_DESCRIPTION" Language="en_US">
+			<Text>Replaces ancient walls. Cheaper to build and tougher to break down than ancient walls.</Text>
+		</Row>
+		
+		
+		
 		<!--CIVILIZATION-->
 		<Row Tag="LOC_CIVILIZATION_EPN_CIV_CUSTOM_NAME" Language="en_US">
 			<Text>Korea</Text>
@@ -438,56 +463,6 @@
 		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_EPN_LEADER_CUSTOM_ANY" Language="en_US">
 			<Text>[LOC_DIPLO_DEFEAT_FROM_AI_LEADER_EPN_LEADER_CUSTOM_ANY]</Text>
 		</Row>
-
-
-
-
 		
-		
-		
-		
-		
-		
-
-		<!--Traits-->
-		<Row Tag="LOC_TRAIT_LEADER_EPN_LEADER_CUSTOM_ECO_NAME" Language="en_US">
-			<Text>Hangul</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_EPN_LEADER_CUSTOM_ECO_DESCRIPTION" Language="en_US">
-			<Text>Additional Economic policy slot in any government.</Text>
-		</Row>
-
-
-		<Row Tag="LOC_TRAIT_CIVILIZATION_EPN_GLORY_NAME" Language="en_US">
-			<Text>Glorious Korea</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_EPN_GLORY_DESCRIPTION" Language="en_US">
-			<Text>Cities receive +10 combat strength. Units receive +1 movement in friendly territory.</Text>
-		</Row>
-
-
-
-		<Row Tag="LOC_BUILDING_EPN_CUSTOM_NAME" Language="en_US">
-			<Text>Barbarian Hate Club</Text>
-		</Row>
-		<Row Tag="LOC_BUILDING_EPN_CUSTOM_DESCRIPTION" Language="en_US">
-			<Text>+1 [Icon_Strength] Combat Strength Vs Barbarians for each Hate Club built.</Text>
-		</Row>
-
-
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
 	</LocalizedText>
 </GameData>
