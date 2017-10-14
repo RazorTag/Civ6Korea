@@ -38,7 +38,7 @@ VALUES	('LEADER_EPN_LEADER_CUSTOM',	'AGENDA_CIVILIZED');
 -- PlayerColors
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO PlayerColors	
-		(Type,							Usage,			PrimaryColor, 										SecondaryColor,											TextColor)
+		(Type,							Usage,			PrimaryColor, 												SecondaryColor,												TextColor)
 VALUES	('LEADER_EPN_LEADER_CUSTOM',	'Unique',		'COLOR_PLAYER_EPN_CIV_CUSTOM_LEADER_CUSTOM_PRIMARY',		'COLOR_PLAYER_EPN_CIV_CUSTOM_LEADER_CUSTOM_SECONDARY', 		'COLOR_PLAYER_WHITE_TEXT');	
 
 INSERT INTO Colors 
@@ -208,6 +208,13 @@ VALUES	('EPN_LEADER_CUSTOM_ECO_EXTRA_SLOT_1',						'MODIFIER_PLAYER_CULTURE_ADJU
 INSERT INTO ModifierArguments
 		(ModifierId,												Name,							Value)
 VALUES	('EPN_LEADER_CUSTOM_ECO_EXTRA_SLOT_1',						'GovernmentSlotType',			'SLOT_ECONOMIC');
+--------------------------------------------------------------------------------------------------------------------------
+-- LeaderTraits
+--------------------------------------------------------------------------------------------------------------------------	
+INSERT INTO LeaderTraits
+		(LeaderType,					TraitType)
+VALUES	('LEADER_EPN_LEADER_CUSTOM',	'TRAIT_LEADER_EPN_LEADER_CUSTOM_ECO');
+
 
 
 
@@ -224,9 +231,16 @@ VALUES	('TRAIT_CIVILIZATION_EPN_GLORY',						'KIND_TRAIT'),
 -- Traits
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Traits
-		(TraitType,													Name,															Description)
-VALUES	('TRAIT_CIVILIZATION_EPN_GLORY',							'LOC_TRAIT_CIVILIZATION_EPN_GLORY_NAME',						'LOC_TRAIT_CIVILIZATION_EPN_GLORY_DESCRIPTION'),
-		('TRAIT_CIVILIZATION_BUILDING_EPN_HANYANGDOSEONG',			'LOC_TRAIT_CIVILIZATION_BUILDING_EPN_HANYANGDOSEONG_NAME',		'LOC_TRAIT_CIVILIZATION_BUILDING_EPN_HANYANGDOSEONG_DESCRIPTION');
+		(TraitType,												Name,										Description)
+VALUES	('TRAIT_CIVILIZATION_EPN_GLORY',						'LOC_TRAIT_CIVILIZATION_EPN_GLORY_NAME',	'LOC_TRAIT_CIVILIZATION_EPN_GLORY_DESCRIPTION'),
+		('TRAIT_CIVILIZATION_BUILDING_EPN_HANYANGDOSEONG',		'LOC_BUILDING_EPN_HANYANGDOSEONG_NAME',		'LOC_BUILDING_EPN_HANYANGDOSEONG_DESCRIPTION');
+----------------------------------------------------------------------------------------------------------------------------
+-- CivilizationTraits
+----------------------------------------------------------------------------------------------------------------------------	
+INSERT INTO CivilizationTraits	
+		(TraitType,												CivilizationType)
+VALUES	('TRAIT_CIVILIZATION_EPN_GLORY',						'CIVILIZATION_EPN_CIV_CUSTOM'),
+		('TRAIT_CIVILIZATION_BUILDING_EPN_HANYANGDOSEONG',		'CIVILIZATION_EPN_CIV_CUSTOM');
 --------------------------------------------------------------------------------------------------------------------------
 -- TraitModifiers
 --------------------------------------------------------------------------------------------------------------------------
@@ -257,19 +271,45 @@ VALUES	('EPN_TRAIT_CITY_INNER_STRENGTH',							'Amount',					15),
 
 
 
+--==========================================================================================================================
+-- BUILDING - HANYANGDOSEONG
+--==========================================================================================================================
+-- Types
 --------------------------------------------------------------------------------------------------------------------------
--- LeaderTraits
+INSERT INTO Types
+		(Type,								Kind)
+VALUES	('BUILDING_EPN_HANYANGDOSEONG',		'KIND_BUILDING');
+--------------------------------------------------------------------------------------------------------------------------
+-- Buildings
 --------------------------------------------------------------------------------------------------------------------------	
-INSERT INTO LeaderTraits
-		(LeaderType,					TraitType)
-VALUES	('LEADER_EPN_LEADER_CUSTOM',	'TRAIT_LEADER_EPN_LEADER_CUSTOM_ECO');
-
-
-
-----------------------------------------------------------------------------------------------------------------------------
--- CivilizationTraits
-----------------------------------------------------------------------------------------------------------------------------	
-INSERT INTO CivilizationTraits	
-		(TraitType,															CivilizationType)
-VALUES	('TRAIT_CIVILIZATION_EPN_GLORY',									'CIVILIZATION_EPN_CIV_CUSTOM'),
-		('TRAIT_CIVILIZATION_BUILDING_EPN_HANYANGDOSEONG',					'CIVILIZATION_EPN_CIV_CUSTOM');
+INSERT INTO Buildings	
+		(BuildingType,					Name,									Description,									PrereqCivic, PrereqDistrict, PurchaseYield, Cost, 				AdvisorType, Maintenance, CitizenSlots,  TraitType)
+SELECT  'BUILDING_EPN_HANYANGDOSEONG',	'LOC_BUILDING_EPN_HANYANGDOSEONG_NAME',	'LOC_BUILDING_EPN_HANYANGDOSEONG_DESCRIPTION',	PrereqCivic, PrereqDistrict, PurchaseYield, ROUND(Cost*0.5),	AdvisorType, Maintenance, CitizenSlots,  'TRAIT_CIVILIZATION_BUILDING_EPN_HANYANGDOSEONG'		
+FROM Buildings WHERE BuildingType = 'BUILDING_WALLS';
+-----------------------------------------------------------------------------------
+-- BuildingReplaces
+-----------------------------------------------------------------------------------
+INSERT INTO BuildingReplaces
+			(CivUniqueBuildingType,					ReplacesBuildingType)
+VALUES		('BUILDING_EPN_HANYANGDOSEONG',			'BUILDING_WALLS');
+-----------------------------------------------------------------------------------
+-- BuildingPrereqs
+-----------------------------------------------------------------------------------
+INSERT INTO BuildingPrereqs
+			(Building,						PrereqBuilding)
+SELECT		'BUILDING_EPN_HANYANGDOSEONG',	PrereqBuilding
+FROM BuildingPrereqs WHERE Building = 'BUILDING_WALLS';
+-----------------------------------------------------------------------------------
+-- Unit_BuildingPrereqs
+-----------------------------------------------------------------------------------
+INSERT INTO Unit_BuildingPrereqs
+			(Unit,	PrereqBuilding)
+SELECT		Unit,	'BUILDING_EPN_HANYANGDOSEONG'
+FROM Unit_BuildingPrereqs WHERE PrereqBuilding = 'BUILDING_MONUMENT';
+-----------------------------------------------------------------------------------
+-- Building_YieldChanges
+-----------------------------------------------------------------------------------	
+INSERT INTO Building_YieldChanges	
+		(BuildingType,					YieldType,		YieldChange)
+SELECT	'BUILDING_EPN_HANYANGDOSEONG',	YieldType, 		YieldChange
+FROM Building_YieldChanges WHERE BuildingType = 'BUILDING_MONUMENT';

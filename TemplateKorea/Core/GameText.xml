@@ -15,14 +15,14 @@
 			<Text>Glorious Korea</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_EPN_GLORY_DESCRIPTION" Language="en_US">
-			<Text>Cities defenses receive +15 combat strength. Units receive +1 movement in friendly territory.</Text>
+			<Text>Cities defenses receive +15 [ICON_Strength] Combat strength. Units receive +1 [ICON_Movement] Movement in friendly territory.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_EPN_HANYANGDOSEONG_NAME" Language="en_US">
 			<Text>Hanyangdoseong</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_EPN_HANYANGDOSEONG_DESCRIPTION" Language="en_US">
-			<Text>Replaces ancient walls. Cheaper to build and tougher to break down than ancient walls.</Text>
+			<Text>Replaces ancient walls. Cheaper to build and provides +1 [ICON_Culture] Culture.</Text>
 		</Row>
 		
 		
