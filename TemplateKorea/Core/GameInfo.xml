@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_EPN_CIV_CUSTOM" TerrainType="TERRAIN_GRASS_HILLS" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_EPN_CIV_CUSTOM" TerrainType="TERRAIN_GRASS_MOUNTAIN" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_EPN_CIV_CUSTOM" TerrainType="TERRAIN_PLAINS_MOUNTAIN" Tier="2"/>
+	</StartBiasTerrains>
+
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_EPN_CIV_CUSTOM" ResourceType="RESOURCE_IRON" Tier="1"/>
+	</StartBiasResources>
+
+</GameInfo>

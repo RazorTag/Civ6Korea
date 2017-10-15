@@ -38,7 +38,7 @@ VALUES	('LEADER_EPN_LEADER_CUSTOM',	'AGENDA_CIVILIZED');
 -- PlayerColors
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO PlayerColors	
-		(Type,							Usage,			PrimaryColor, 										SecondaryColor,											TextColor)
+		(Type,							Usage,			PrimaryColor, 												SecondaryColor,												TextColor)
 VALUES	('LEADER_EPN_LEADER_CUSTOM',	'Unique',		'COLOR_PLAYER_EPN_CIV_CUSTOM_LEADER_CUSTOM_PRIMARY',		'COLOR_PLAYER_EPN_CIV_CUSTOM_LEADER_CUSTOM_SECONDARY', 		'COLOR_PLAYER_WHITE_TEXT');	
 
 INSERT INTO Colors 
@@ -208,6 +208,13 @@ VALUES	('EPN_LEADER_CUSTOM_ECO_EXTRA_SLOT_1',						'MODIFIER_PLAYER_CULTURE_ADJU
 INSERT INTO ModifierArguments
 		(ModifierId,												Name,							Value)
 VALUES	('EPN_LEADER_CUSTOM_ECO_EXTRA_SLOT_1',						'GovernmentSlotType',			'SLOT_ECONOMIC');
+--------------------------------------------------------------------------------------------------------------------------
+-- LeaderTraits
+--------------------------------------------------------------------------------------------------------------------------	
+INSERT INTO LeaderTraits
+		(LeaderType,					TraitType)
+VALUES	('LEADER_EPN_LEADER_CUSTOM',	'TRAIT_LEADER_EPN_LEADER_CUSTOM_ECO');
+
 
 
 
@@ -224,16 +231,22 @@ VALUES	('TRAIT_CIVILIZATION_EPN_GLORY',						'KIND_TRAIT'),
 -- Traits
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Traits
-		(TraitType,													Name,															Description)
-VALUES	('TRAIT_CIVILIZATION_EPN_GLORY',							'LOC_TRAIT_CIVILIZATION_EPN_GLORY_NAME',						'LOC_TRAIT_CIVILIZATION_EPN_GLORY_DESCRIPTION'),
-		('TRAIT_CIVILIZATION_BUILDING_EPN_HANYANGDOSEONG',			'LOC_TRAIT_CIVILIZATION_BUILDING_EPN_HANYANGDOSEONG_NAME',		'LOC_TRAIT_CIVILIZATION_BUILDING_EPN_HANYANGDOSEONG_DESCRIPTION');
+		(TraitType,												Name,										Description)
+VALUES	('TRAIT_CIVILIZATION_EPN_GLORY',						'LOC_TRAIT_CIVILIZATION_EPN_GLORY_NAME',	'LOC_TRAIT_CIVILIZATION_EPN_GLORY_DESCRIPTION'),
+		('TRAIT_CIVILIZATION_BUILDING_EPN_HANYANGDOSEONG',		'LOC_BUILDING_EPN_HANYANGDOSEONG_NAME',		'LOC_BUILDING_EPN_HANYANGDOSEONG_DESCRIPTION');
+----------------------------------------------------------------------------------------------------------------------------
+-- CivilizationTraits
+----------------------------------------------------------------------------------------------------------------------------	
+INSERT INTO CivilizationTraits	
+		(TraitType,												CivilizationType)
+VALUES	('TRAIT_CIVILIZATION_EPN_GLORY',						'CIVILIZATION_EPN_CIV_CUSTOM'),
+		('TRAIT_CIVILIZATION_BUILDING_EPN_HANYANGDOSEONG',		'CIVILIZATION_EPN_CIV_CUSTOM');
 --------------------------------------------------------------------------------------------------------------------------
 -- TraitModifiers
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO TraitModifiers
 		(TraitType,											ModifierId)
-VALUES	('TRAIT_CIVILIZATION_EPN_GLORY',					'EPN_TRAIT_CITY_INNER_STRENGTH'),
-		('TRAIT_CIVILIZATION_EPN_GLORY',					'EPN_TRAIT_CITY_OUTER_STRENGTH'),
+VALUES	('TRAIT_CIVILIZATION_EPN_GLORY',					'EPN_TRAIT_CITY_OUTER_STRENGTH'),
 		('TRAIT_CIVILIZATION_EPN_GLORY',					'EPN_TRAIT_CITY_RANGED_STRENGTH'),
 		('TRAIT_CIVILIZATION_EPN_GLORY',					'EPN_TRAIT_FRIENDLY_MOVEMENT');
 --------------------------------------------------------------------------------------------------------------------------
@@ -241,8 +254,7 @@ VALUES	('TRAIT_CIVILIZATION_EPN_GLORY',					'EPN_TRAIT_CITY_INNER_STRENGTH'),
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Modifiers
 		(ModifierId,												ModifierType)
-VALUES	('EPN_TRAIT_CITY_INNER_STRENGTH',							'MODIFIER_PLAYER_CITIES_ADJUST_INNER_DEFENSE'),
-		('EPN_TRAIT_CITY_OUTER_STRENGTH',							'MODIFIER_PLAYER_CITIES_ADJUST_OUTER_DEFENSE'),
+VALUES	('EPN_TRAIT_CITY_OUTER_STRENGTH',							'MODIFIER_PLAYER_CITIES_ADJUST_OUTER_DEFENSE'),
 		('EPN_TRAIT_CITY_RANGED_STRENGTH',							'MODIFIER_PLAYER_CITIES_ADJUST_RANGED_STRIKE'),
 		('EPN_TRAIT_FRIENDLY_MOVEMENT',								'MODIFIER_PLAYER_UNITS_ADJUST_FRIENDLY_TERRITORY_START_MOVEMENT');
 --------------------------------------------------------------------------------------------------------------------------
@@ -250,26 +262,50 @@ VALUES	('EPN_TRAIT_CITY_INNER_STRENGTH',							'MODIFIER_PLAYER_CITIES_ADJUST_IN
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO ModifierArguments
 		(ModifierId,												Name,						Value)
-VALUES	('EPN_TRAIT_CITY_INNER_STRENGTH',							'Amount',					15),
-		('EPN_TRAIT_CITY_OUTER_STRENGTH',							'Amount',					15),
+VALUES	('EPN_TRAIT_CITY_OUTER_STRENGTH',							'Amount',					15),
 		('EPN_TRAIT_CITY_RANGED_STRENGTH',							'Amount',					15),
 		('EPN_TRAIT_FRIENDLY_MOVEMENT',								'Amount',					1);
 
 
 
+--==========================================================================================================================
+-- BUILDING - HANYANGDOSEONG
+--==========================================================================================================================
+-- Types
 --------------------------------------------------------------------------------------------------------------------------
--- LeaderTraits
+INSERT INTO Types
+		(Type,								Kind)
+VALUES	('BUILDING_EPN_HANYANGDOSEONG',		'KIND_BUILDING');
+--------------------------------------------------------------------------------------------------------------------------
+-- Buildings
 --------------------------------------------------------------------------------------------------------------------------	
-INSERT INTO LeaderTraits
-		(LeaderType,					TraitType)
-VALUES	('LEADER_EPN_LEADER_CUSTOM',	'TRAIT_LEADER_EPN_LEADER_CUSTOM_ECO');
-
-
-
-----------------------------------------------------------------------------------------------------------------------------
--- CivilizationTraits
-----------------------------------------------------------------------------------------------------------------------------	
-INSERT INTO CivilizationTraits	
-		(TraitType,															CivilizationType)
-VALUES	('TRAIT_CIVILIZATION_EPN_GLORY',									'CIVILIZATION_EPN_CIV_CUSTOM'),
-		('TRAIT_CIVILIZATION_BUILDING_EPN_HANYANGDOSEONG',					'CIVILIZATION_EPN_CIV_CUSTOM');
+INSERT INTO Buildings	
+		(BuildingType,					Name,									Description,									AdvisorType,		TraitType,											Cost,				PrereqTech, PrereqCivic, MaxPlayerInstances, MaxWorldInstances, Capital, PrereqDistrict, AdjacentDistrict, RequiresPlacement, RequiresRiver, OuterDefenseHitPoints, Housing, Entertainment, AdjacentResource, Coast, EnabledByReligion, AllowsHolyCity, PurchaseYield, MustPurchase, Maintenance, IsWonder, OuterDefenseStrength, CitizenSlots, MustBeLake, MustNotBeLake, RegionalRange, AdjacentToMountain, ObsoleteEra, RequiresReligion, GrantFortification, DefenseModifier, InternalOnly, RequiresAdjacentRiver, Quote, QuoteAudio, MustBeAdjacentLand, AdjacentCapital, AdjacentImprovement, CityAdjacentTerrain)
+SELECT  'BUILDING_EPN_HANYANGDOSEONG',	'LOC_BUILDING_EPN_HANYANGDOSEONG_NAME',	'LOC_BUILDING_EPN_HANYANGDOSEONG_DESCRIPTION',	'ADVISOR_CULTURE',	'TRAIT_CIVILIZATION_BUILDING_EPN_HANYANGDOSEONG',	ROUND(Cost*0.5),	PrereqTech, PrereqCivic, MaxPlayerInstances, MaxWorldInstances, Capital, PrereqDistrict, AdjacentDistrict, RequiresPlacement, RequiresRiver, OuterDefenseHitPoints, Housing, Entertainment, AdjacentResource, Coast, EnabledByReligion, AllowsHolyCity, PurchaseYield, MustPurchase, Maintenance, IsWonder, OuterDefenseStrength, CitizenSlots, MustBeLake, MustNotBeLake, RegionalRange, AdjacentToMountain, ObsoleteEra, RequiresReligion, GrantFortification, DefenseModifier, InternalOnly, RequiresAdjacentRiver, Quote, QuoteAudio, MustBeAdjacentLand, AdjacentCapital, AdjacentImprovement, CityAdjacentTerrain
+FROM Buildings WHERE BuildingType = 'BUILDING_WALLS';
+-----------------------------------------------------------------------------------
+-- BuildingReplaces
+-----------------------------------------------------------------------------------
+INSERT INTO BuildingReplaces
+			(CivUniqueBuildingType,					ReplacesBuildingType)
+VALUES		('BUILDING_EPN_HANYANGDOSEONG',			'BUILDING_WALLS');
+-----------------------------------------------------------------------------------
+-- BuildingPrereqs
+-----------------------------------------------------------------------------------
+INSERT INTO BuildingPrereqs
+			(Building,						PrereqBuilding)
+SELECT		'BUILDING_EPN_HANYANGDOSEONG',	PrereqBuilding
+FROM BuildingPrereqs WHERE Building = 'BUILDING_WALLS';
+-----------------------------------------------------------------------------------
+-- Unit_BuildingPrereqs
+-----------------------------------------------------------------------------------
+INSERT INTO Unit_BuildingPrereqs
+			(Unit,	PrereqBuilding)
+SELECT		Unit,	'BUILDING_EPN_HANYANGDOSEONG'
+FROM Unit_BuildingPrereqs WHERE PrereqBuilding = 'BUILDING_WALLS';
+-----------------------------------------------------------------------------------
+-- Building_YieldChanges
+-----------------------------------------------------------------------------------	
+INSERT INTO Building_YieldChanges	
+		(BuildingType,					YieldType,			YieldChange)
+VALUES	('BUILDING_EPN_HANYANGDOSEONG',	'YIELD_CULTURE', 	1);

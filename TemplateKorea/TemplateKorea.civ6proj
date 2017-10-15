@@ -17,8 +17,8 @@
     <SupportsHotSeat>true</SupportsHotSeat>
     <AssemblyName>TemplateKorea</AssemblyName>
     <RootNamespace>TemplateKorea</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Core/Config.sql</File><File>Core/Buildings.xml</File></UpdateDatabase><UpdateIcons id="NewAction"><File>Core/Icons.xml</File></UpdateIcons><UpdateText id="NewAction"><File>Core/GameText.xml</File></UpdateText><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/GameDefines.sql</File><File>Core/Buildings.xml</File></UpdateDatabase><UpdateIcons id="NewAction"><File>Core/Icons.xml</File></UpdateIcons><UpdateText id="NewAction"><File>Core/GameText.xml</File></UpdateText><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Core/Config.sql</File><File>Core/GameInfo.xml</File></UpdateDatabase><UpdateIcons id="NewAction"><File>Core/Icons.xml</File></UpdateIcons><UpdateText id="NewAction"><File>Core/GameText.xml</File></UpdateText><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/GameDefines.sql</File><File>Core/GameInfo.xml</File></UpdateDatabase><UpdateIcons id="NewAction"><File>Core/Icons.xml</File></UpdateIcons><UpdateText id="NewAction"><File>Core/GameText.xml</File></UpdateText><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -39,7 +39,7 @@
     <Content Include="ArtDefs\Leaders.artdef">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Buildings.xml">
+    <Content Include="Core\GameInfo.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Config.sql">

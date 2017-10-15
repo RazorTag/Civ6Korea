@@ -33,7 +33,7 @@
 
 
 		<!--Building Icons-->
-		<Row Name="ICON_BUILDING_EPN_HANYANGDOSEONG" Atlas="ICON_ATLAS_CIVICS" Index="29"/>
+		<Row Name="ICON_BUILDING_EPN_HANYANGDOSEONG" Atlas="ICON_ATLAS_BUILDINGS" Index="6"/>
 
 	</IconDefinitions>
 </GameData>
