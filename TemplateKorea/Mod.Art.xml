@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects::GameArtSpecification>
 	<id>
-		<name text="New Civ Wales"/>
+		<name text="Glorious Korea"/>
 		<id text="f6698c67-bde4-4203-8599-cfdc9cdd08ad"/>
 	</id>
 	<artConsumers>
@@ -27,8 +27,20 @@
 			<loadsLibraries>true</loadsLibraries>
 		</Element>
 		<Element>
+			<consumerName text="Districts"/>
+			<relativeArtDefPaths>
+				<Element text="Districts.artdef"/>
+				<Element text="Landmarks.artdef"/>
+				<Element text="Cultures.artdef"/>
+			</relativeArtDefPaths>
+			<libraryDependencies/>
+			<loadsLibraries>true</loadsLibraries>
+		</Element>
+		<Element>
 			<consumerName text="Landmarks"/>
 			<relativeArtDefPaths>
+				<Element text="Landmarks.artdef"/>
+				<Element text="Cultures.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="CityBuildings"/>
@@ -249,6 +261,7 @@
 		<Element>
 			<consumerName text="Civilizations"/>
 			<relativeArtDefPaths>
+				<Element text="Civilizations.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -256,6 +269,7 @@
 		<Element>
 			<consumerName text="Cultures"/>
 			<relativeArtDefPaths>
+				<Element text="Cultures.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -291,6 +305,11 @@
 		<Element>
 			<consumerName text="Audio"/>
 			<relativeArtDefPaths>
+				<Element text="Civilizations.artdef"/>
+				<Element text="Districts.artdef"/>
+				<Element text="Leaders.artdef"/>
+				<Element text="Landmarks.artdef"/>
+				<Element text="Cultures.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -308,6 +327,7 @@
 		<Element>
 			<consumerName text="Leaders"/>
 			<relativeArtDefPaths>
+				<Element text="Leaders.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Leader"/>
@@ -549,7 +569,7 @@
 			<relativePackagePaths>
 				<Element text="UILeaders"/>
 				<Element text="LeaderBackgrounds"/>
-				<Element text="LEADER_EPN_LEADER_CUSTOM"/>
+				<Element text="LEADER_EPN_SEJONG"/>
 				<Element text="Icons"/>
 			</relativePackagePaths>
 		</Element>

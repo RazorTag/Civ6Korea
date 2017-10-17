@@ -26,14 +26,14 @@
 
 	<IconDefinitions>
 		<!--Leader Icons-->
-		<Row Name="ICON_LEADER_EPN_LEADER_CUSTOM" Atlas="ICON_ATLAS_LEADER_CUSTOM" Index="0"/>
+		<Row Name="ICON_LEADER_EPN_SEJONG" Atlas="ICON_ATLAS_LEADER_CUSTOM" Index="0"/>
 
 		<!--Civilization Icons-->
-		<Row Name="ICON_CIVILIZATION_EPN_CIV_CUSTOM" Atlas="ICON_ATLAS_CIV_CUSTOM" Index="0"/>
-
+		<Row Name="ICON_CIVILIZATION_EPN_KOREA" Atlas="ICON_ATLAS_CIV_CUSTOM" Index="0"/>
 
 		<!--Building Icons-->
 		<Row Name="ICON_BUILDING_EPN_HANYANGDOSEONG" Atlas="ICON_ATLAS_BUILDINGS" Index="6"/>
+		<Row Name="ICON_DISTRICT_EPN_HAGWON" Atlas="ICON_ATLAS_DISTRICTS" Index="2"/>
 
 	</IconDefinitions>
 </GameData>
