@@ -23,25 +23,16 @@ VALUES	('LEADER_EPN_SEJONG',	'LOC_PEDIA_LEADERS_PAGE_LEADER_EPN_SEJONG_QUOTE');
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO HistoricalAgendas	
 		(LeaderType,			AgendaType)
-VALUES	('LEADER_EPN_SEJONG',	'AGENDA_PEACEKEEPER');
+VALUES	('LEADER_EPN_SEJONG',	'AGENDA_TECHNOPHILE');
 --------------------------------------------------------------------------------------------------------------------------
 -- AgendaPreferredLeaders
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO AgendaPreferredLeaders	
 		(LeaderType,			AgendaType)
-VALUES	('LEADER_EPN_SEJONG',	'AGENDA_CIVILIZED');	
-----------------------------------------------------------------------------------------------------------------------------
----- HistoricalAgendas
-----------------------------------------------------------------------------------------------------------------------------	
---INSERT INTO HistoricalAgendas	
-		--(LeaderType,			AgendaType)
---VALUES	('LEADER_EPN_SEJONG',	'AGENDA_TECHNOPHILE');
-----------------------------------------------------------------------------------------------------------------------------
----- AgendaPreferredLeaders
-----------------------------------------------------------------------------------------------------------------------------	
---INSERT INTO AgendaPreferredLeaders	
-		--(LeaderType,			AgendaType)
---VALUES	('LEADER_EPN_SEJONG',	'TRAIT_AGENDA_PREFER_SCIENCE');	
+VALUES	('LEADER_EPN_SEJONG',	'AGENDA_INDUSTRIALIST'),
+		('LEADER_EPN_SEJONG',	'AGENDA_EXPLOITATIVE'),
+		('LEADER_EPN_SEJONG',	'AGENDA_MONEY_GRUBBER'),
+		('LEADER_EPN_SEJONG',	'AGENDA_CIVILIZED');
 
 
 --==========================================================================================================================
@@ -66,8 +57,8 @@ VALUES	('COLOR_PLAYER_EPN_CIV_CUSTOM_LEADER_CUSTOM_PRIMARY', 		0.78,	0.02,	0.17,
 -- LoadingInfo
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO LoadingInfo	
-		(LeaderType,						BackgroundImage, 						ForegroundImage,			PlayDawnOfManAudio)
-VALUES	('LEADER_EPN_SEJONG',		'LEADER_LEADER_CUSTOM_BACKGROUND',		'LEADER_LEADER_CUSTOM_NEUTRAL',		0);	
+		(LeaderType,				BackgroundImage, 					ForegroundImage,					PlayDawnOfManAudio)
+VALUES	('LEADER_EPN_SEJONG',		'LEADER_DEFAULT_BACKGROUND',		'LEADER_LEADER_CUSTOM_NEUTRAL',		0);	
 --==========================================================================================================================
 -- CIVILIZATIONS
 --==========================================================================================================================
