@@ -31,12 +31,10 @@
 			<relativeArtDefPaths>
 				<Element text="Districts.artdef"/>
 				<Element text="Landmarks.artdef"/>
-				<!--<Element text="Cultures.artdef"/>-->
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Landmark"/>
 				<Element text="District"/>
-				<!--<Element text="Cultures"/>-->
 			</libraryDependencies>
 			<loadsLibraries>true</loadsLibraries>
 		</Element>
@@ -44,13 +42,11 @@
 			<consumerName text="Landmarks"/>
 			<relativeArtDefPaths>
 				<Element text="Landmarks.artdef"/>
-				<!--<Element text="Cultures.artdef"/>-->
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="CityBuildings"/>
 				<Element text="TileBase"/>
 				<Element text="RouteDecalMaterial"/>
-				<!--<Element text="Cultures"/>-->
 			</libraryDependencies>
 			<loadsLibraries>true</loadsLibraries>
 		</Element>
@@ -310,11 +306,11 @@
 		<Element>
 			<consumerName text="Audio"/>
 			<relativeArtDefPaths>
-				<!--<Element text="Civilizations.artdef"/>
-				<Element text="Districts.artdef"/>
+				<Element text="Civilizations.artdef"/>
+				<Element text="Cultures.artdef"/>
+				<!--<Element text="Districts.artdef"/>
 				<Element text="Leaders.artdef"/>
-				<Element text="Landmarks.artdef"/>
-				<Element text="Cultures.artdef"/>-->
+				<Element text="Landmarks.artdef"/>-->
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -575,7 +571,7 @@
 				<Element text="UILeaders"/>
 				<Element text="LeaderBackgrounds"/>
 				<Element text="LEADER_EPN_SEJONG"/>
-				<Element text="Icons"/>
+				<Element text="UI/Icons"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>

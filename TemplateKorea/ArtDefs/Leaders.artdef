@@ -33,7 +33,7 @@
 							<m_EntryName text="LEADER_EPN_SEJONG_ICONS"/>
 							<m_XLPClass text="UITexture"/>
 							<m_XLPPath text="Icons.xlp"/>
-							<m_BLPPackage text="Icons"/>
+							<m_BLPPackage text="UI/Icons"/>
 							<m_LibraryName text="UITexture"/>
 							<m_ParamName text="Leader_Icons_BLP_Entry"/>
 						</Element>
