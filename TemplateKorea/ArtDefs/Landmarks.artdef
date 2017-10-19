@@ -3,8 +3,8 @@
 	<m_Version>
 		<major>4</major>
 		<minor>0</minor>
-		<build>253</build>
-		<revision>867</revision>
+		<build>260</build>
+		<revision>754</revision>
 	</m_Version>
 	<m_TemplateName text="Landmarks"/>
 	<m_RootCollections>
@@ -14,7 +14,7 @@
 			<Element>
 				<m_Fields>
 					<m_Values>
-						<Element class="AssetObjects..ArtDefReferenceValue">
+						<Element class="AssetObjects:ArtDefReferenceValue">
 							<m_ElementName text="Gen_GenericDistrict"/>
 							<m_RootCollectionName text="Generator"/>
 							<m_ArtDefPath text="CityGenerators.artdef"/>
@@ -22,27 +22,27 @@
 							<m_TemplateName text="CityGenerators"/>
 							<m_ParamName text="DistrictGenerator"/>
 						</Element>
-						<Element class="AssetObjects..RGBValue">
-							<m_r>18.000000</m_r>
-							<m_g>55.000000</m_g>
-							<m_b>193.000000</m_b>
+						<Element class="AssetObjects:RGBValue">
+							<m_r>250.000000</m_r>
+							<m_g>137.000000</m_g>
+							<m_b>4.000000</m_b>
 							<m_ParamName text="TintColor"/>
 						</Element>
-						<Element class="AssetObjects..BoolValue">
-							<m_bValue>false</m_bValue>
-							<m_ParamName text="DistrictDamagePillagesBuildings"/>
-						</Element>
-						<Element class="AssetObjects..BoolValue">
+						<Element class="AssetObjects:BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="IsAlignedToCoast"/>
 						</Element>
-						<Element class="AssetObjects..BoolValue">
+						<Element class="AssetObjects:BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="FlattenTerrain"/>
+						</Element>
+						<Element class="AssetObjects:BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="bUseCityScale"/>
 						</Element>
-						<Element class="AssetObjects..BoolValue">
-							<m_bValue>true</m_bValue>
-							<m_ParamName text="FlattenTerrain"/>
+						<Element class="AssetObjects:BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="DistrictDamagePillagesBuildings"/>
 						</Element>
 					</m_Values>
 				</m_Fields>
@@ -53,23 +53,23 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="EMPTY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Landmarks"/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Eras"/>
+										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -77,7 +77,15 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects..BLPEntryValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_CMP_Ancient_Base_01"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -85,40 +93,32 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ANY"/>
-										<m_RootCollectionName text="AppealTags"/>
-										<m_ArtDefPath text="Appeal.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Appeal"/>
-									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="BaseVariants001"/>
+							<m_Name text="BaseVariants1"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="LIBRARY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Landmarks"/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Eras"/>
+										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -126,7 +126,15 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects..BLPEntryValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_CMP_Ancient_Base_02"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -134,40 +142,32 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ANY"/>
-										<m_RootCollectionName text="AppealTags"/>
-										<m_ArtDefPath text="Appeal.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Appeal"/>
-									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="BaseVariants002"/>
+							<m_Name text="BaseVariants2"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="EMPTY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Landmarks"/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ARTERA_CLASSICAL"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Eras"/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -175,7 +175,15 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects..BLPEntryValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_CMP_Classical_Base_01"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -183,40 +191,32 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ANY"/>
-										<m_RootCollectionName text="AppealTags"/>
-										<m_ArtDefPath text="Appeal.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Appeal"/>
-									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="BaseVariants003"/>
+							<m_Name text="BaseVariants3"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="LIBRARY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Landmarks"/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ARTERA_CLASSICAL"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Eras"/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -224,7 +224,15 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects..BLPEntryValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_CMP_Classical_Base_02"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -232,32 +240,24 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ANY"/>
-										<m_RootCollectionName text="AppealTags"/>
-										<m_ArtDefPath text="Appeal.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Appeal"/>
-									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="BaseVariants004"/>
+							<m_Name text="BaseVariants4"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="LIBRARY, UNIVERSITY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Landmarks"/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
@@ -265,7 +265,7 @@
 										<m_TemplateName text="Eras"/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -273,15 +273,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_CMP_Classical_Base_03"/>
-										<m_XLPClass text="TileBase"/>
-										<m_XLPPath text="tilebases.xlp"/>
-										<m_BLPPackage text="landmarks/tilebases"/>
-										<m_LibraryName text="TileBase"/>
-										<m_ParamName text="Asset"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ANY"/>
 										<m_RootCollectionName text="AppealTags"/>
 										<m_ArtDefPath text="Appeal.artdef"/>
@@ -289,32 +281,40 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Appeal"/>
 									</Element>
+									<Element class="AssetObjects:BLPEntryValue">
+										<m_EntryName text="DIS_CMP_Classical_Base_03"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="tilebases.xlp"/>
+										<m_BLPPackage text="landmarks/tilebases"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="BaseVariants005"/>
+							<m_Name text="BaseVariants5"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="EMPTY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Landmarks"/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ARTERA_INDUSTRIAL"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Eras"/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -322,7 +322,15 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects..BLPEntryValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_CMP_Industrial_Base_01"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -330,40 +338,32 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ANY"/>
-										<m_RootCollectionName text="AppealTags"/>
-										<m_ArtDefPath text="Appeal.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Appeal"/>
-									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="BaseVariants006"/>
+							<m_Name text="BaseVariants6"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="LIBRARY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Landmarks"/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ARTERA_INDUSTRIAL"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Eras"/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -371,7 +371,15 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects..BLPEntryValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_CMP_Industrial_Base_02"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -379,40 +387,32 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ANY"/>
-										<m_RootCollectionName text="AppealTags"/>
-										<m_ArtDefPath text="Appeal.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Appeal"/>
-									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="BaseVariants007"/>
+							<m_Name text="BaseVariants7"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="LIBRARY, UNIVERSITY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Landmarks"/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ARTERA_INDUSTRIAL"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Eras"/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -420,7 +420,15 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects..BLPEntryValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_CMP_Industrial_Base_03"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -428,40 +436,32 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ANY"/>
-										<m_RootCollectionName text="AppealTags"/>
-										<m_ArtDefPath text="Appeal.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Appeal"/>
-									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="BaseVariants008"/>
+							<m_Name text="BaseVariants8"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="EMPTY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Landmarks"/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ARTERA_MODERN"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Eras"/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -469,7 +469,15 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects..BLPEntryValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_CMP_Modern_Base_01"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -477,40 +485,32 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ANY"/>
-										<m_RootCollectionName text="AppealTags"/>
-										<m_ArtDefPath text="Appeal.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Appeal"/>
-									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="BaseVariants009"/>
+							<m_Name text="BaseVariants9"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="LIBRARY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Landmarks"/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ARTERA_MODERN"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Eras"/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -518,7 +518,15 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects..BLPEntryValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_CMP_Modern_Base_02"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -526,40 +534,32 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ANY"/>
-										<m_RootCollectionName text="AppealTags"/>
-										<m_ArtDefPath text="Appeal.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Appeal"/>
-									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="BaseVariants010"/>
+							<m_Name text="BaseVariants10"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="LIBRARY, UNIVERSITY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Landmarks"/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ARTERA_MODERN"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Eras"/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -567,7 +567,15 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects..BLPEntryValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_CMP_Modern_Base_03"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -575,40 +583,32 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ANY"/>
-										<m_RootCollectionName text="AppealTags"/>
-										<m_ArtDefPath text="Appeal.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Appeal"/>
-									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="BaseVariants011"/>
+							<m_Name text="BaseVariants11"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="LIBRARY, UNIVERSITY, RESEARCH_LAB"/>
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="LIBRARY, UNIVERSITY, RESEARCH LAB"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Landmarks"/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Eras"/>
+										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -616,7 +616,15 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects..BLPEntryValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_CMP_Modern_Base_04"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -624,214 +632,10 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ANY"/>
-										<m_RootCollectionName text="AppealTags"/>
-										<m_ArtDefPath text="Appeal.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Appeal"/>
-									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="BaseVariants012"/>
-							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="LIBRARY, MADRASA"/>
-										<m_RootCollectionName text="BuildingSets"/>
-										<m_ArtDefPath text="Landmarks.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Landmarks"/>
-										<m_ParamName text="Set_HeroBuildings"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DEFAULT"/>
-										<m_RootCollectionName text="ArtEra"/>
-										<m_ArtDefPath text="Eras.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Eras"/>
-										<m_ParamName text="Tag_Era"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DEFAULT"/>
-										<m_RootCollectionName text="Culture"/>
-										<m_ArtDefPath text="Cultures.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Cultures"/>
-										<m_ParamName text="Tag_Culture"/>
-									</Element>
-									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_CMP_Classical_Base_03"/>
-										<m_XLPClass text="TileBase"/>
-										<m_XLPPath text="tilebases.xlp"/>
-										<m_BLPPackage text="landmarks/tilebases"/>
-										<m_LibraryName text="TileBase"/>
-										<m_ParamName text="Asset"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ANY"/>
-										<m_RootCollectionName text="AppealTags"/>
-										<m_ArtDefPath text="Appeal.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Appeal"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="BaseVariants005001"/>
-							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="LIBRARY, MADRASA"/>
-										<m_RootCollectionName text="BuildingSets"/>
-										<m_ArtDefPath text="Landmarks.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Landmarks"/>
-										<m_ParamName text="Set_HeroBuildings"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ARTERA_INDUSTRIAL"/>
-										<m_RootCollectionName text="ArtEra"/>
-										<m_ArtDefPath text="Eras.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Era"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DEFAULT"/>
-										<m_RootCollectionName text="Culture"/>
-										<m_ArtDefPath text="Cultures.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Cultures"/>
-										<m_ParamName text="Tag_Culture"/>
-									</Element>
-									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_CMP_Industrial_Base_03"/>
-										<m_XLPClass text="TileBase"/>
-										<m_XLPPath text="tilebases.xlp"/>
-										<m_BLPPackage text="landmarks/tilebases"/>
-										<m_LibraryName text="TileBase"/>
-										<m_ParamName text="Asset"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ANY"/>
-										<m_RootCollectionName text="AppealTags"/>
-										<m_ArtDefPath text="Appeal.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Appeal"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="BaseVariants008001"/>
-							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="LIBRARY, MADRASA"/>
-										<m_RootCollectionName text="BuildingSets"/>
-										<m_ArtDefPath text="Landmarks.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Landmarks"/>
-										<m_ParamName text="Set_HeroBuildings"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ARTERA_MODERN"/>
-										<m_RootCollectionName text="ArtEra"/>
-										<m_ArtDefPath text="Eras.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Era"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DEFAULT"/>
-										<m_RootCollectionName text="Culture"/>
-										<m_ArtDefPath text="Cultures.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Cultures"/>
-										<m_ParamName text="Tag_Culture"/>
-									</Element>
-									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_CMP_Modern_Base_03"/>
-										<m_XLPClass text="TileBase"/>
-										<m_XLPPath text="tilebases.xlp"/>
-										<m_BLPPackage text="landmarks/tilebases"/>
-										<m_LibraryName text="TileBase"/>
-										<m_ParamName text="Asset"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ANY"/>
-										<m_RootCollectionName text="AppealTags"/>
-										<m_ArtDefPath text="Appeal.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Appeal"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="BaseVariants011001"/>
-							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="LIBRARY, MADRASA, REASEARCH_LAB"/>
-										<m_RootCollectionName text="BuildingSets"/>
-										<m_ArtDefPath text="Landmarks.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Landmarks"/>
-										<m_ParamName text="Set_HeroBuildings"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DEFAULT"/>
-										<m_RootCollectionName text="ArtEra"/>
-										<m_ArtDefPath text="Eras.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Eras"/>
-										<m_ParamName text="Tag_Era"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DEFAULT"/>
-										<m_RootCollectionName text="Culture"/>
-										<m_ArtDefPath text="Cultures.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Cultures"/>
-										<m_ParamName text="Tag_Culture"/>
-									</Element>
-									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_CMP_Modern_Base_04"/>
-										<m_XLPClass text="TileBase"/>
-										<m_XLPPath text="tilebases.xlp"/>
-										<m_BLPPackage text="landmarks/tilebases"/>
-										<m_LibraryName text="TileBase"/>
-										<m_ParamName text="Asset"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ANY"/>
-										<m_RootCollectionName text="AppealTags"/>
-										<m_ArtDefPath text="Appeal.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Appeal"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="BaseVariants012001"/>
+							<m_Name text="BaseVariants12"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
@@ -841,15 +645,15 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="BUILDING_LIBRARY"/>
 										<m_RootCollectionName text="HeroBuildingTags"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Landmarks"/>
 										<m_ParamName text="Tag_HeroBuilding"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
@@ -857,7 +661,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -865,7 +669,15 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects..BLPEntryValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_CMP_Library"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="hero_buildings.xlp"/>
@@ -873,13 +685,54 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="BuildingVariants1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="BUILDING_UNIVERSITY"/>
+										<m_RootCollectionName text="HeroBuildingTags"/>
+										<m_ArtDefPath text="Landmarks.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Landmarks"/>
+										<m_ParamName text="Tag_HeroBuilding"/>
+									</Element>
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ANY"/>
 										<m_RootCollectionName text="AppealTags"/>
 										<m_ArtDefPath text="Appeal.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects:BLPEntryValue">
+										<m_EntryName text="DIS_CMP_University"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="hero_buildings.xlp"/>
+										<m_BLPPackage text="landmarks/hero_buildings"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
@@ -890,23 +743,23 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="BUILDING_UNIVERSITY"/>
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="BUILDING_OBSERVATORY"/>
 										<m_RootCollectionName text="HeroBuildingTags"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Landmarks"/>
 										<m_ParamName text="Tag_HeroBuilding"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Eras"/>
+										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -914,21 +767,21 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_CMP_University"/>
-										<m_XLPClass text="TileBase"/>
-										<m_XLPPath text="hero_buildings.xlp"/>
-										<m_BLPPackage text="landmarks/hero_buildings"/>
-										<m_LibraryName text="TileBase"/>
-										<m_ParamName text="Asset"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ANY"/>
 										<m_RootCollectionName text="AppealTags"/>
 										<m_ArtDefPath text="Appeal.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects:BLPEntryValue">
+										<m_EntryName text="HB_ERROR"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="hero_buildings.xlp"/>
+										<m_BLPPackage text="landmarks/hero_buildings"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
@@ -939,23 +792,23 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="BUILDING_RESEARCH_LAB"/>
 										<m_RootCollectionName text="HeroBuildingTags"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Landmarks"/>
 										<m_ParamName text="Tag_HeroBuilding"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Eras"/>
+										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -963,7 +816,15 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects..BLPEntryValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_CMP_Research"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="hero_buildings.xlp"/>
@@ -971,116 +832,10 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ANY"/>
-										<m_RootCollectionName text="AppealTags"/>
-										<m_ArtDefPath text="Appeal.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Appeal"/>
-									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="BuildingVariants002"/>
-							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="BUILDING_MADRASA"/>
-										<m_RootCollectionName text="HeroBuildingTags"/>
-										<m_ArtDefPath text="Landmarks.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Landmarks"/>
-										<m_ParamName text="Tag_HeroBuilding"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DEFAULT"/>
-										<m_RootCollectionName text="ArtEra"/>
-										<m_ArtDefPath text="Eras.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Era"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DEFAULT"/>
-										<m_RootCollectionName text="Culture"/>
-										<m_ArtDefPath text="Cultures.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Cultures"/>
-										<m_ParamName text="Tag_Culture"/>
-									</Element>
-									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_CMP_Madrasa"/>
-										<m_XLPClass text="TileBase"/>
-										<m_XLPPath text="hero_buildings.xlp"/>
-										<m_BLPPackage text="landmarks/hero_buildings"/>
-										<m_LibraryName text="TileBase"/>
-										<m_ParamName text="Asset"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ANY"/>
-										<m_RootCollectionName text="AppealTags"/>
-										<m_ArtDefPath text="Appeal.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Appeal"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="BuildingVariants004"/>
-							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="BUILDING_OBSERVATORY"/>
-										<m_RootCollectionName text="HeroBuildingTags"/>
-										<m_ArtDefPath text="Landmarks.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Landmarks"/>
-										<m_ParamName text="Tag_HeroBuilding"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DEFAULT"/>
-										<m_RootCollectionName text="ArtEra"/>
-										<m_ArtDefPath text="Eras.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Era"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DEFAULT"/>
-										<m_RootCollectionName text="Culture"/>
-										<m_ArtDefPath text="Cultures.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Culture"/>
-									</Element>
-									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="HB_ERROR"/>
-										<m_XLPClass text="TileBase"/>
-										<m_XLPPath text="hero_buildings.xlp"/>
-										<m_BLPPackage text="landmarks/hero_buildings"/>
-										<m_LibraryName text="TileBase"/>
-										<m_ParamName text="Asset"/>
-									</Element>
-									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ANY"/>
-										<m_RootCollectionName text="AppealTags"/>
-										<m_ArtDefPath text="Appeal.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="Tag_Appeal"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="BuildingVariants005"/>
+							<m_Name text="BuildingVariants4"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
@@ -1090,7 +845,7 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects..CollectionValue">
+									<Element class="AssetObjects:CollectionValue">
 										<m_eObjectType>INVALID</m_eObjectType>
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values/>
@@ -1105,17 +860,17 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects..CollectionValue">
+									<Element class="AssetObjects:CollectionValue">
 										<m_eObjectType>INVALID</m_eObjectType>
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
-											<Element class="AssetObjects..ArtDefReferenceValue">
+											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_LIBRARY"/>
 												<m_RootCollectionName text="HeroBuildingTags"/>
-												<m_ArtDefPath text=""/>
+												<m_ArtDefPath text="Landmarks.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
-												<m_TemplateName text=""/>
-												<m_ParamName text="Set"/>
+												<m_TemplateName text="Landmarks"/>
+												<m_ParamName text="Set001"/>
 											</Element>
 										</m_Values>
 										<m_ParamName text="Set"/>
@@ -1129,25 +884,25 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects..CollectionValue">
+									<Element class="AssetObjects:CollectionValue">
 										<m_eObjectType>INVALID</m_eObjectType>
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
-											<Element class="AssetObjects..ArtDefReferenceValue">
+											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_LIBRARY"/>
 												<m_RootCollectionName text="HeroBuildingTags"/>
-												<m_ArtDefPath text=""/>
+												<m_ArtDefPath text="Landmarks.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
-												<m_TemplateName text=""/>
-												<m_ParamName text="Set"/>
+												<m_TemplateName text="Landmarks"/>
+												<m_ParamName text="Set001"/>
 											</Element>
-											<Element class="AssetObjects..ArtDefReferenceValue">
+											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_UNIVERSITY"/>
 												<m_RootCollectionName text="HeroBuildingTags"/>
-												<m_ArtDefPath text=""/>
+												<m_ArtDefPath text="Landmarks.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
-												<m_TemplateName text=""/>
-												<m_ParamName text="Set_1"/>
+												<m_TemplateName text="Landmarks"/>
+												<m_ParamName text="Set002"/>
 											</Element>
 										</m_Values>
 										<m_ParamName text="Set"/>
@@ -1161,99 +916,27 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects..CollectionValue">
+									<Element class="AssetObjects:CollectionValue">
 										<m_eObjectType>INVALID</m_eObjectType>
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
-											<Element class="AssetObjects..ArtDefReferenceValue">
+											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_LIBRARY"/>
 												<m_RootCollectionName text="HeroBuildingTags"/>
-												<m_ArtDefPath text=""/>
+												<m_ArtDefPath text="Landmarks.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
-												<m_TemplateName text=""/>
-												<m_ParamName text="Set"/>
+												<m_TemplateName text="Landmarks"/>
+												<m_ParamName text="Set001"/>
 											</Element>
-											<Element class="AssetObjects..ArtDefReferenceValue">
+											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_UNIVERSITY"/>
 												<m_RootCollectionName text="HeroBuildingTags"/>
-												<m_ArtDefPath text=""/>
-												<m_CollectionIsLocked>true</m_CollectionIsLocked>
-												<m_TemplateName text=""/>
-												<m_ParamName text="Set_1"/>
-											</Element>
-											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="BUILDING_RESEARCH_LAB"/>
-												<m_RootCollectionName text="HeroBuildingTags"/>
-												<m_ArtDefPath text=""/>
-												<m_CollectionIsLocked>true</m_CollectionIsLocked>
-												<m_TemplateName text=""/>
-												<m_ParamName text="Set_2"/>
-											</Element>
-										</m_Values>
-										<m_ParamName text="Set"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="LIBRARY, UNIVERSITY, RESEARCH_LAB"/>
-							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects..CollectionValue">
-										<m_eObjectType>INVALID</m_eObjectType>
-										<m_eValueType>ARTDEF_REF</m_eValueType>
-										<m_Values>
-											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="BUILDING_LIBRARY"/>
-												<m_RootCollectionName text="HeroBuildingTags"/>
-												<m_ArtDefPath text="Landmarks.artdef"/>
-												<m_CollectionIsLocked>true</m_CollectionIsLocked>
-												<m_TemplateName text="Landmarks"/>
-												<m_ParamName text="Set001"/>
-											</Element>
-											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="BUILDING_MADRASA"/>
-												<m_RootCollectionName text="HeroBuildingTags"/>
 												<m_ArtDefPath text="Landmarks.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
 												<m_TemplateName text="Landmarks"/>
 												<m_ParamName text="Set002"/>
 											</Element>
-										</m_Values>
-										<m_ParamName text="Set"/>
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="LIBRARY, MADRASA"/>
-							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects..CollectionValue">
-										<m_eObjectType>INVALID</m_eObjectType>
-										<m_eValueType>ARTDEF_REF</m_eValueType>
-										<m_Values>
-											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="BUILDING_LIBRARY"/>
-												<m_RootCollectionName text="HeroBuildingTags"/>
-												<m_ArtDefPath text="Landmarks.artdef"/>
-												<m_CollectionIsLocked>true</m_CollectionIsLocked>
-												<m_TemplateName text="Landmarks"/>
-												<m_ParamName text="Set001"/>
-											</Element>
-											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="BUILDING_MADRASA"/>
-												<m_RootCollectionName text="HeroBuildingTags"/>
-												<m_ArtDefPath text="Landmarks.artdef"/>
-												<m_CollectionIsLocked>true</m_CollectionIsLocked>
-												<m_TemplateName text="Landmarks"/>
-												<m_ParamName text="Set002"/>
-											</Element>
-											<Element class="AssetObjects..ArtDefReferenceValue">
+											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_RESEARCH_LAB"/>
 												<m_RootCollectionName text="HeroBuildingTags"/>
 												<m_ArtDefPath text="Landmarks.artdef"/>
@@ -1267,7 +950,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="LIBRARY, MADRASA, REASEARCH_LAB"/>
+							<m_Name text="LIBRARY, UNIVERSITY, RESEARCH LAB"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
@@ -1299,3 +982,4 @@
 	</m_RootCollections>
 </AssetObjects:ArtDefSet>
 
+ 
