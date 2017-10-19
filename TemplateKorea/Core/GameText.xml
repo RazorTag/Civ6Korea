@@ -15,7 +15,7 @@
 			<Text>Turtle Empire</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_EPN_GLORY_DESCRIPTION" Language="en_US">
-			<Text>City walls receive +15 [ICON_Strength] Melee strength and +15 [ICON_Ranged] Ranged strength. Units receive +1 [ICON_Movement] Movement in friendly territory.</Text>
+			<Text>City walls receive +15 [ICON_Strength] Melee strength and +15 [ICON_Ranged] Ranged strength. Units receive +1 [ICON_Movement] Movement on friendly land.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_EPN_HANYANGDOSEONG_NAME" Language="en_US">
@@ -74,37 +74,37 @@
 			<Text>Asia</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_EPN_CIV_CUSTOM_POPULATION" Language="en_US">
-			<Text>Josh Was Here 2k17</Text>
+			<Text>Est. 77 Million</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_EPN_CIV_CUSTOM_SIZE" Language="en_US">
-			<Text>Josh Was Here 2k17</Text>
+			<Text>Est. 85 thousand square miles (221 thousand square km)</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_EPN_CIV_CUSTOM_CAPITAL" Language="en_US">
-			<Text>Seoul</Text>
+			<Text>Hanseong</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_EPN_KOREA_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>Josh Was Here 2k17</Text>
+			<Text>One of the best known artifacts of Korea's history of science and technology is the Cheomseongdae (첨성대, 瞻星臺), a 9.4-meter high observatory built in 634. The earliest known surviving Korean example of woodblock printing is the Mugujeonggwang Great Dharani Sutra. It is believed to have been printed in Korea in 750–51, which if correct, would make it older than the Diamond Sutra. During the Goryeo Dynasty, metal movable type printing was invented by Choe Yun-ui in 1234. This invention made printing easier, more efficient and also increased literacy, which observed by Chinese visitors was seen to be so important where it was considered to be shameful to not be able to read. The Mongol Empire later adopted Korea's movable type printing and spread as far as Central Asia. There is conjecture as to whether or not Choe's invention had any influence on later printing inventions such as Gutenberg's Printing press. When the Mongols invaded Europe they inadvertently introduced different kinds of Asian technology. During the Joseon period, the Turtle Ship was invented, which were covered by a wooden deck and iron with thorns, as well as other weapons such as the bigyeokjincheolloe cannon (비격진천뢰, 飛擊震天雷) and the hwacha. The Korean alphabet hangul was also invented during this time by King Sejong the Great.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_EPN_KOREA_CHAPTER_HISTORY_PARA_2" Language="en_US">
-			<Text>Josh Was Here 2k17</Text>
+			<Text>Korea is a historic country in East Asia; since 1945 it has been divided into two distinct sovereign states: North Korea (officially the "Democratic People's Republic of Korea") and South Korea (officially the "Republic of Korea"). Located on the Korean Peninsula, Korea is bordered by China to the northwest and Russia to the northeast. It is separated from Japan to the east by the Korea Strait and the Sea of Japan (East Sea). Korea emerged as a singular political entity in 936CE after centuries of conflict among the Three Kingdoms of Korea, which were unified as Later Silla to the south and Balhae to the north. Later Silla divided into three separate states during the Later Three Kingdoms period. Goryeo, which had succeeded Goguryeo, defeated the two other states and united the Korean Peninsula. Around the same time, Balhae collapsed and its last crown prince fled south to Goryeo. Goryeo (also spelled as Koryŏ), whose name developed into the modern exonym "Korea", was a highly cultured state that created the world's first metal movable type in 1234. However, multiple invasions by the Mongol Yuan Dynasty during the 13th century greatly weakened the nation, which eventually agreed to become a vassal state after decades of fighting. Following the Yuan Dynasty's collapse, severe political strife followed, and Goryeo eventually fell to a coup led by General Yi Seong-gye, who established Joseon in 1392.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_EPN_KOREA_CHAPTER_HISTORY_PARA_3" Language="en_US">
-			<Text>Josh Was Here 2k17</Text>
+			<Text>The first 200 years of Joseon were marked by relative peace. During this period, the Korean alphabet was created by Sejong the Great in the 15th century and there was increasing influence of Confucianism. During the later part of the dynasty, Korea's isolationist policy earned it the Western nickname of the "Hermit Kingdom". By the late 19th century, the country became the object of imperial design by the Empire of Japan. After the First Sino-Japanese War, despite the Korean Empire's effort to modernize, it was annexed by Japan in 1910 and ruled by Imperial Japan until the end of World War II in August 1945. In 1945, the Soviet Union and the United States agreed on the surrender of Japanese forces in Korea in the aftermath of World War II, leaving Korea partitioned along the 38th parallel. The North was under Soviet occupation and the South under U.S. occupation. These circumstances soon became the basis for the division of Korea by the two superpowers, exacerbated by their incapability to agree on the terms of Korean independence. The Communist-inspired government in the North received backing from the Soviet Union in opposition to the pro-Western government in the South, leading to Korea's division into two political entities: North Korea (formally the Democratic People's Republic of Korea), and South Korea (formally the Republic of Korea). Tensions between the two resulted in the outbreak of the Korean War in 1950. With involvement by foreign troops, the war ended in a stalemate in 1953, but without a formalized peace treaty. This status contributes to the high tensions that continue to divide the peninsula. To date, each country contends that it is the sole legitimate government of all of Korea; they refuse to recognize the other as legitimate.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_EPN_KOREA_CHAPTER_HISTORY_PARA_4" Language="en_US">
-			<Text>Josh Was Here 2k17</Text>
+			<Text>Korea is located on the Korean Peninsula in East Asia. To the northwest, the Amnok River separates Korea from China and to the northeast, the Duman River separates Korea from China and Russia. The peninsula is surrounded by the Yellow Sea to the west, the East China Sea and Korea Strait to the south, and the East Sea (Sea of Japan). Notable islands include Jeju Island, Ulleung Island, Dokdo. The southern and western parts of the peninsula have well-developed plains, while the eastern and northern parts are mountainous. The highest mountain in Korea is Mount Paektu (2,744 m), through which runs the border with China. The southern extension of Mount Paektu is a highland called Gaema Heights. This highland was mainly raised during the Cenozoic orogeny and partly covered by volcanic matter. To the south of Gaema Gowon, successive high mountains are located along the eastern coast of the peninsula. This mountain range is named Baekdudaegan. Some significant mountains include Mount Sobaek or Sobaeksan (1,439 m), Mount Kumgang (1,638 m), Mount Seorak (1,708 m), Mount Taebaek (1,567 m), and Mount Jiri (1,915 m). There are several lower, secondary mountain series whose direction is almost perpendicular to that of Baekdudaegan. They are developed along the tectonic line of Mesozoic orogeny and their directions are basically northwest. Unlike most ancient mountains on the mainland, many important islands in Korea were formed by volcanic activity in the Cenozoic orogeny. Jeju Island, situated off the southern coast, is a large volcanic island whose main mountain Mount Halla or Hallasan (1950 m) is the highest in South Korea. Ulleung Island is a volcanic island in the East Sea, whose composition is more felsic than Jeju-do. The volcanic islands tend to be younger, the more westward. Because the mountainous region is mostly on the eastern part of the peninsula, the main rivers tend to flow westwards. Two exceptions are the southward-flowing Nakdong River and Seomjin River. Important rivers running westward include the Amnok River, the Chongchon River, the Taedong River, the Han River, the Geum River, and the Yeongsan River. These rivers have vast flood plains and provide an ideal environment for wet-rice cultivation. The southern and southwestern coastlines of Korea form a well-developed ria coastline, known as Dadohae-jin in Korean. Its convoluted coastline provides mild seas, and the resulting calm environment allows for safe navigation, fishing, and seaweed farming. In addition to the complex coastline, the western coast of the Korean Peninsula has an extremely high tidal amplitude (at Incheon, around the middle of the western coast. It can get as high as 9 m). Vast tidal flats have been developing on the south and west coastlines.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_EPN_KOREA_CHAPTER_HISTORY_PARA_5" Language="en_US">
-			<Text>Josh Was Here 2k17</Text>
+			<Text>Confucian tradition has dominated Korean thought, along with contributions by Buddhism, Taoism, and Korean Shamanism. Since the middle of the 20th century, however, Christianity has competed with Buddhism in South Korea, while religious practice has been suppressed in North Korea. Throughout Korean history and culture, regardless of separation; the influence of traditional beliefs of Korean Shamanism, Mahayana Buddhism, Confucianism and Taoism have remained an underlying religion of the Korean people as well as a vital aspect of their culture; all these traditions have coexisted peacefully for hundreds of years up to today despite strong Westernisation from Christian missionary conversions in the South or the pressure from the Juche government in the North. According to 2005 statistics compiled by the South Korean government, about 46% of citizens profess to follow no particular religion. Christians account for 29.2% of the population (of which are Protestants 18.3% and Catholics 10.9%) and Buddhists 22.8%. Islam in South Korea is practiced by about 45,000 natives (about 0.09% of the population) in addition to some 100,000 foreign workers from Muslim countries.</Text>
 		</Row>
 		
 		
 		<!--Cities-->
 		<Row Tag="LOC_CITY_NAME_EPN_CIV_CUSTOM_1" Language="en_US">
-			<Text>Seoul</Text>
+			<Text>Hanseong</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EPN_CIV_CUSTOM_2" Language="en_US">
-			<Text>Pyongyang</Text>
+			<Text>Jeju</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EPN_CIV_CUSTOM_3" Language="en_US">
 			<Text>Busan</Text>
@@ -149,7 +149,7 @@
 			<Text>Wonju</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EPN_CIV_CUSTOM_17" Language="en_US">
-			<Text>Andong</Text>
+			<Text>Pyongyang</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_EPN_CIV_CUSTOM_18" Language="en_US">
 			<Text>Haeju</Text>
@@ -195,7 +195,7 @@
 		
 		<!--Citizens-->
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_1" Language="en_US">
-			<Text>A-a-ron</Text>
+			<Text>A-A-Ron</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_2" Language="en_US">
 			<Text>Hong</Text>
@@ -210,106 +210,106 @@
 			<Text>Kim</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_6" Language="en_US">
-			<Text>Seo-yun</Text>
+			<Text>Seo-Yun</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_7" Language="en_US">
-			<Text>Ji-a</Text>
+			<Text>Ji-A</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_8" Language="en_US">
-			<Text>Da-eun</Text>
+			<Text>Da-Eun</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MALE_9" Language="en_US">
-			<Text>Ha-eun</Text>
+			<Text>Ha-Eun</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_MALE_1" Language="en_US">
-			<Text>Some Modern Guy</Text>
+			<Text>Ji-Su</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_MALE_2" Language="en_US">
-			<Text>Some Modern Guy</Text>
+			<Text>Hwan</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_MALE_3" Language="en_US">
-			<Text>Some Modern Guy</Text>
+			<Text>Hyeon</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_MALE_4" Language="en_US">
-			<Text>Some Modern Guy</Text>
+			<Text>Gun</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_MALE_5" Language="en_US">
-			<Text>Some Modern Guy</Text>
+			<Text>Chul</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_MALE_6" Language="en_US">
-			<Text>Some Modern Guy</Text>
+			<Text>Gyeong</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_MALE_7" Language="en_US">
-			<Text>Some Modern Guy</Text>
+			<Text>Bora</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_MALE_8" Language="en_US">
-			<Text>Some Modern Guy</Text>
+			<Text>Ki</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_MALE_9" Language="en_US">
-			<Text>Some Modern Guy</Text>
+			<Text>Uk</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_MALE_10" Language="en_US">
-			<Text>Some Modern Guy</Text>
+			<Text>Wook</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_FEMALE_1" Language="en_US">
-			<Text>Some Girl</Text>
+			<Text>Ae-Jeong</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_FEMALE_2" Language="en_US">
-			<Text>Some Girl</Text>
+			<Text>Baek-Han</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_FEMALE_3" Language="en_US">
-			<Text>Some Girl</Text>
+			<Text>Chan-U</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_FEMALE_4" Language="en_US">
-			<Text>Some Girl</Text>
+			<Text>Dong-Ha</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_FEMALE_5" Language="en_US">
-			<Text>Some Girl</Text>
+			<Text>Geu-Rin</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_FEMALE_6" Language="en_US">
-			<Text>Some Girl</Text>
+			<Text>Han-Bin</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_FEMALE_7" Language="en_US">
-			<Text>Some Girl</Text>
+			<Text>Min-Hyuk</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_FEMALE_8" Language="en_US">
-			<Text>Some Girl</Text>
+			<Text>Nam-Joon</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_FEMALE_9" Language="en_US">
-			<Text>Some Girl</Text>
+			<Text>Ok-Seong</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_FEMALE_10" Language="en_US">
-			<Text>Some Girl</Text>
+			<Text>Sam</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_1" Language="en_US">
-			<Text>Some Modern Girl</Text>
+			<Text>Nara</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_2" Language="en_US">
-			<Text>Some Modern Girl</Text>
+			<Text>Naklang</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_3" Language="en_US">
-			<Text>Some Modern Girl</Text>
+			<Text>Saebyeok</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_4" Language="en_US">
-			<Text>Some Modern Girl</Text>
+			<Text>Seongmoo</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_5" Language="en_US">
-			<Text>Some Modern Girl</Text>
+			<Text>Sha</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_6" Language="en_US">
-			<Text>Some Modern Girl</Text>
+			<Text>Sol</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_7" Language="en_US">
-			<Text>Some Modern Girl</Text>
+			<Text>Sora</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_8" Language="en_US">
-			<Text>Some Modern Girl</Text>
+			<Text>Tae</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_9" Language="en_US">
-			<Text>Some Modern Girl</Text>
+			<Text>Wonjang</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_EPN_CIV_CUSTOM_MODERN_FEMALE_10" Language="en_US">
-			<Text>Some Modern Girl</Text>
+			<Text>Yeoreum</Text>
 		</Row>
 		
 		
@@ -337,22 +337,22 @@
 			<Text>Being of foreign origin, Chinese characters are incapable of capturing uniquely Korean meanings. Therefore, many common people have no way to express their thoughts and feelings. Out of my sympathy for their difficulties, I have created a set of 28 letters. The letters are very easy to learn, and it is my fervent hope that they improve the quality of life of all people.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EPN_SEJONG_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>paragraphc 1 etc...</Text>
+			<Text>Sejong the Great (Korean pronunciation: [se(ː)dʑoŋ]; 15 May 1397 – 8 April 1450) was the fourth king of Joseon-dynasty Korea. He was the third son of King Taejong and Queen consort Min. He was designated as heir-apparent, Crown Prince, after his older brother Jae was stripped of his title. He ascended to the throne in 1418. During the first four years of his reign, Taejong governed as regent, after which his father-in-law, Sim On, and his close associates were executed. Although the appellation "the Great" / "(대왕;大王)" was given posthumously to almost every ruler of Goryeo and Joseon, this title is usually associated with Gwanggaeto and Sejong.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EPN_SEJONG_CHAPTER_HISTORY_PARA_2" Language="en_US">
-			<Text>-</Text>
+			<Text>Sejong is credited with great advances in science during his reign. He wanted to help farmers so he decided to create a farmer's handbook. The book—the Nongsa jikseol (hangul: 농사직설, hanja: 農事直說)—contained information about the different farming techniques that he told scientists to gather in different regions of Korea. These techniques were needed in order to maintain the newly adopted methods of intensive, continuous cultivation in Korean agriculture. Sejong also wanted to reform the Korean calendar system, which was at the time based upon the longitude of the Chinese capital. Sejong, for the first time in Korean history, had his astronomers create a calendar with the Joseon capital of Seoul as the primary meridian. This new system allowed Korean astronomers to accurately predict the timing of solar and lunar eclipses.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EPN_SEJONG_CHAPTER_HISTORY_PARA_3" Language="en_US">
-			<Text>-</Text>
+			<Text>King Sejong the Great profoundly affected Korean history with his introduction of hangul, the native phonetic alphabet system for the Korean language. Before the creation of Hangul, people in Korea (known as Joseon at the time) primarily wrote using Classical Chinese alongside native phonetic writing systems that predate Hangul by hundreds of years, including idu, hyangchal, gugyeol, and gakpil. However, due to the fundamental differences between the Korean and Chinese languages, and the large number of characters needed to be learned, there was much difficulty in learning how to write using Chinese characters for the lower classes, who often didn't have the privilege of education. To assuage this problem, King Sejong created the unique alphabet known as Hangul to promote literacy among the common people. His intention was to establish a cultural identity for Korea through its unique script.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EPN_SEJONG_CHAPTER_HISTORY_PARA_4" Language="en_US">
-			<Text>-</Text>
+			<Text>King Sejong presided over the introduction of the 28-letter Korean alphabet, with the explicit goal being that Koreans from all classes would read and write. Each hangul letter is based on a simplified diagram of the patterns made by the human speech organs (the mouth, tongue and teeth) when producing the sound related to the character. Morphemes are built by writing the characters in syllabic blocks. The blocks of letters are then strung together linearly. The Hangul alphabet was completed in 1443 and published in 1446 along with a 33-page manual titled Hunmin Jeong-um, explaining what the letters are as well as the philosophical theories and motives behind them. The Hunmin Jeong-um purported that anyone could learn Hangul in a matter of days. Persons previously unfamiliar with Hangul can typically pronounce Korean script accurately after only a few hours of study. Although most government officials and aristocrats opposed usage of hangul, lower classes embraced it, became literate, and were able to communicate with one another in writing.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EPN_SEJONG_CHAPTER_HISTORY_PARA_5" Language="en_US">
-			<Text>-</Text>
+			<Text>King Sejong revolutionized government by appointing people from different social classes as civil servants. Furthermore, he performed official government events according to Confucianism, and he encouraged people to behave according to Confucianism. As a result, Confucianism became the social norm. He also published some books about Confucianism. In the year 1427 Sejong ordered a decree against the Huihui (Korean Muslim) community that had had special status and stipends since the Yuan dynasty. The Huihui were forced to abandon their headgear, to close down their "ceremonial hall" (Mosque in the city of Kaesong) and worship like everyone else. No further mention of Muslims exist during the era of the Joseon.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EPN_SEJONG_CHAPTER_HISTORY_PARA_6" Language="en_US">
-			<Text>-</Text>
+			<Text>King Sejong was an effective military planner. He created various military regulations to strengthen the safety of his kingdom,[6] supported the advancement of Korean military technology, including cannon development. Different kinds of mortars and fire arrows were tested as well as the use of gunpowder. In May 1419, King Sejong, under the advice and guidance of his father Taejong, embarked upon the Gihae Eastern Expedition, the ultimate goal of this military expedition to remove the nuisance of Japanese pirates who had been operating out of Tsushima Island. During the expedition, 245 Japanese were killed, and another 110 were captured in combat, while 180 Korean soldiers were killed. 146 Chinese and 8 Korean kidnapped were liberated by this expedition. In September 1419 a truce was made and the Korean army returned to Korea, but the Treaty of Gyehae was signed in 1443, in which the Daimyo of Tsushima promised to pay tribute to the King of Joseon; in return, the Joseon court rewarded the Sō clan with preferential rights regarding trade between Japan and Korea.</Text>
 		</Row>
 		
 		
@@ -360,23 +360,23 @@
 		<!--FIRST MEET-->
 		<!--First AI line-->
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>Ah another person who's cities I can take!</Text>
+			<Text>A wise ruler should not neglect minority opinions and give a careful hearing. Nevertheless, it would be foolish for a monarch to make decisions based on a single person’s opinion.</Text>
 		</Row>
 		<!--AI invitation to visit nearby City-->
 		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>Do you want to come and visit my city?</Text>
+			<Text>How could a king who should rule over all people and all things in the country with impartiality treat those of low birth any differently from the way he treats others?</Text>
 		</Row>
 		<!--AI accepts Human invitation-->
 		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>Let me come and inspect your city, I bet it's not Efficient...</Text>
+			<Text>The people are the roots of a nation, and the roots should be strong so as to create a peaceful nation.</Text>
 		</Row>
 		<!--AI invitation to exchange Capital Information-->
 		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>Let's compare Cities, I know that yours will be trash, but you can look at mine for help!</Text>
+			<Text>Leading a sheltered existence inside a palace, I am not aware of all the going-ons among the people. If there are any matters that cause anguish to the people, you should report them to me without failing.</Text>
 		</Row>
 		<!--GREETINGS-->
 		<Row Tag="LOC_DIPLO_GREETING_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>You alright mate?</Text>
+			<Text>Welcome to the Joseon court, friend. I have done much to help my people. Can you say the same?</Text>
 		</Row>
 		<!--DELEGATION-->
 		<!--AI Accepts-->
@@ -389,59 +389,59 @@
 		</Row>
 		<!--AI Requests -->
 		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>I have sent you a delegation of Worthingtons and Dominos pizza!</Text>
+			<Text>I have sent you a delegation of Korean tacos and kimchi!</Text>
 		</Row>
 		<!--OPEN BORDERS-->
 		<!--AI accepts from human-->
 		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>My Man!</Text>
+			<Text>My people will welcome your soldiers as their own.</Text>
 		</Row>
 		<!--AI rejects from human-->
 		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>Lol that's a trash offer... </Text>
+			<Text>Glorious Korea is not open to foreign soldiers at this time.</Text>
 		</Row>
 		<!--AI requests from human-->
 		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>Open your borders... For Reasons...</Text>
+			<Text>My soldiers would like to explore your lands for scientific purposes.</Text>
 		</Row>
 		<!--DECLARE FRIENDSHIP-->
 		<!--AI accepts from human-->
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>Yeah alright, we can be friends... For now...</Text>
+			<Text>You are a true friend to the scientific community.</Text>
 		</Row>
 		<!--AI Rejects from human -->
 		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>Lol I don't want to be friends with you... You're a noob...</Text>
+			<Text>Work on educating your people.</Text>
 		</Row>
 		<!--AI Requests friendship from human-->
 		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>Hey, do you want to be friends? We can team up and wreck those other noobs!</Text>
+			<Text>Glorious Korea wishes to honor your people's scholarship with friendship.</Text>
 		</Row>
 		<!--Human accepts AI requests, AI responds-->
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>My Man!</Text>
+			<Text>Excellent</Text>
 		</Row>
 		<!--Human rejects AI requests, AI responds-->
 		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>That's fine, it means I can just raze you instead...</Text>
+			<Text>Most disappointing</Text>
 		</Row>
 		<!--ALLIANCE-->
 		<!--AI Requests an alliance from human-->
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>Join forces with me, and together we will win the game!</Text>
+			<Text>Do you want to build a seowon?</Text>
 		</Row>
 		<!--KUDOS & WARNINGS-->
 		<!--AI Kudos-->
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>You are a pretty sound person. I like what you're up to!</Text>
+			<Text>One of the most essential ingredients of great statesmanship is trust, and especially expressing trust.</Text>
 		</Row>
 		<!--AI Warnings-->
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>You're a massive noob! Stop doing stupid stuff...</Text>
+			<Text>Your people's ignorance threatens the peace and stability of the civilized world.</Text>
 		</Row>
 		<!--AI warns player for border troops-->
 		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>I see those troops on my borders... And I will farm them for EXP if your not careful!</Text>
+			<Text>You remind me of the Jurchens.</Text>
 		</Row>
 		<!--TRADE-->
 		<!--AI Accepts Deal-->
@@ -455,38 +455,38 @@
 		<!--DENOUNCE-->
 		<!--From Human-->
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>HAHA! Do you know what? Good... Go ahead and casus beli me in 5 turns... I dare you!</Text>
+			<Text>This does not bode well.</Text>
 		</Row>
 		<!--From AI-->
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>Watching you play this game is like watching a car crash in slow motion... You are inefficient, bad and just a massive noob... Go learn how to play CIV you complete wreck... (Denounces You)</Text>
+			<Text>Unacceptable</Text>
 		</Row>
 		<!--DECLARE WAR-->
 		<!--Human Declares War-->
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>YEAH BOI! Now we are talking... I have Nukes by the way...</Text>
+			<Text>Nuclear weaponry is the Present!</Text>
 		</Row>
 		<!--AI Declares War-->
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>I'm bored of you, time to get taken out the game you absolute pest!</Text>
+			<Text>How did you not see this coming?</Text>
 		</Row>
 		<!--MAKE PEACE-->
 		<!--AI accepts from human-->
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>Meh, I was bored anyway...</Text>
+			<Text>I wish you good fortune in the wars to come.</Text>
 		</Row>
 		<!--AI refuses human-->
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>NEVER!</Text>
+			<Text>Korea does not forget.</Text>
 		</Row>
 		<!--AI requests from human-->
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>Right, I'm getting loads of war weariness... So let's make peace then carry on later...</Text>
+			<Text>You will be permitted to live in exchange for tribute.</Text>
 		</Row>
 		<!--DEFEAT-->
 		<!--AI is Defeated-->
 		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>You cheated... It doesn't count... I bet you're playing on settler difficulty!</Text>
+			<Text>Korea remembers.</Text>
 		</Row>
 		<!--Human is Defeated (will see this in hotseat)-->
 		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_EPN_SEJONG_ANY" Language="en_US">

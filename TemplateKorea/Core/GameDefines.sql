@@ -22,14 +22,26 @@ VALUES	('LEADER_EPN_SEJONG',	'LOC_PEDIA_LEADERS_PAGE_LEADER_EPN_SEJONG_QUOTE');
 -- HistoricalAgendas
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO HistoricalAgendas	
-		(LeaderType,					AgendaType)
+		(LeaderType,			AgendaType)
 VALUES	('LEADER_EPN_SEJONG',	'AGENDA_PEACEKEEPER');
 --------------------------------------------------------------------------------------------------------------------------
 -- AgendaPreferredLeaders
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO AgendaPreferredLeaders	
-		(LeaderType,					AgendaType)
+		(LeaderType,			AgendaType)
 VALUES	('LEADER_EPN_SEJONG',	'AGENDA_CIVILIZED');	
+----------------------------------------------------------------------------------------------------------------------------
+---- HistoricalAgendas
+----------------------------------------------------------------------------------------------------------------------------	
+--INSERT INTO HistoricalAgendas	
+		--(LeaderType,			AgendaType)
+--VALUES	('LEADER_EPN_SEJONG',	'AGENDA_TECHNOPHILE');
+----------------------------------------------------------------------------------------------------------------------------
+---- AgendaPreferredLeaders
+----------------------------------------------------------------------------------------------------------------------------	
+--INSERT INTO AgendaPreferredLeaders	
+		--(LeaderType,			AgendaType)
+--VALUES	('LEADER_EPN_SEJONG',	'TRAIT_AGENDA_PREFER_SCIENCE');	
 
 
 --==========================================================================================================================
@@ -54,8 +66,8 @@ VALUES	('COLOR_PLAYER_EPN_CIV_CUSTOM_LEADER_CUSTOM_PRIMARY', 		0.78,	0.02,	0.17,
 -- LoadingInfo
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO LoadingInfo	
-		(LeaderType,						BackgroundImage, 						ForegroundImage,						PlayDawnOfManAudio)
-VALUES	('LEADER_EPN_SEJONG',		'LEADER_LEADER_CUSTOM_BACKGROUND',		'LEADER_LEADER_CUSTOM_NEUTRAL',			0);	
+		(LeaderType,						BackgroundImage, 						ForegroundImage,			PlayDawnOfManAudio)
+VALUES	('LEADER_EPN_SEJONG',		'LEADER_LEADER_CUSTOM_BACKGROUND',		'LEADER_LEADER_CUSTOM_NEUTRAL',		0);	
 --==========================================================================================================================
 -- CIVILIZATIONS
 --==========================================================================================================================
@@ -68,8 +80,8 @@ VALUES	('CIVILIZATION_EPN_KOREA',	'KIND_CIVILIZATION');
 -- Civilizations
 ----------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO Civilizations	
-		(CivilizationType,					Name,										Description,									Adjective,										StartingCivilizationLevelType,	RandomCityNameDepth,	Ethnicity)
-VALUES	('CIVILIZATION_EPN_KOREA',	'LOC_CIVILIZATION_EPN_KOREA_NAME',	'LOC_CIVILIZATION_EPN_KOREA_DESCRIPTION',	'LOC_CIVILIZATION_EPN_KOREA_ADJECTIVE',	'CIVILIZATION_LEVEL_FULL_CIV',	30,						'ETHNICITY_EURO');	
+		(CivilizationType,			Name,								Description,								Adjective,								StartingCivilizationLevelType,	RandomCityNameDepth,	Ethnicity)
+VALUES	('CIVILIZATION_EPN_KOREA',	'LOC_CIVILIZATION_EPN_KOREA_NAME',	'LOC_CIVILIZATION_EPN_KOREA_DESCRIPTION',	'LOC_CIVILIZATION_EPN_KOREA_ADJECTIVE',	'CIVILIZATION_LEVEL_FULL_CIV',	30,						'ETHNICITY_ASIAN');	
 ----------------------------------------------------------------------------------------------------------------------------			
 -- CityNames			
 ----------------------------------------------------------------------------------------------------------------------------		
@@ -162,8 +174,8 @@ VALUES	('CIVILIZATION_EPN_KOREA',	'LOC_CIVINFO_LOCATION',		'LOC_CIVINFO_EPN_CIV_
 -- CivilizationLeaders
 ----------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO CivilizationLeaders
-		(CivilizationType,					LeaderType,						CapitalName)
-VALUES	('CIVILIZATION_EPN_KOREA',		'LEADER_EPN_SEJONG',		'LOC_CITY_NAME_EPN_CIV_CUSTOM_1');
+		(CivilizationType,				LeaderType,				CapitalName)
+VALUES	('CIVILIZATION_EPN_KOREA',		'LEADER_EPN_SEJONG',	'LOC_CITY_NAME_EPN_CIV_CUSTOM_1');
 
 
 
@@ -327,8 +339,8 @@ VALUES	('DISTRICT_EPN_HAGWON',		'KIND_DISTRICT');
 -- Districts
 -----------------------------------------------------------------------------------
 INSERT INTO Districts
-		(DistrictType,				Name,							Description,							TraitType,									PrereqTech, PrereqCivic, Coast, Cost,		RequiresPlacement, RequiresPopulation, NoAdjacentCity, CityCenter, Aqueduct, InternalOnly, ZOC, FreeEmbark, HitPoints, CaptureRemovesBuildings, CaptureRemovesCityDefenses, PlunderType, PlunderAmount, TradeEmbark, MilitaryDomain, CostProgressionModel, CostProgressionParam1, Appeal, Housing, Entertainment, OnePerCity, AllowsHolyCity, Maintenance, AirSlots, CitizenSlots, TravelTime, CityStrengthModifier, AdjacentToLand, CanAttack, AdvisorType, CaptureRemovesDistrict)
-SELECT	'DISTRICT_EPN_HAGWON',		'LOC_DISTRICT_EPN_HAGWON_NAME',	'LOC_DISTRICT_EPN_HAGWON_DESCRIPTION',	'TRAIT_CIVILIZATION_DISTRICT_EPN_HAGWON',	PrereqTech, PrereqCivic, Coast, ROUND(Cost/2),	RequiresPlacement, RequiresPopulation, NoAdjacentCity, CityCenter, Aqueduct, InternalOnly, ZOC, FreeEmbark, HitPoints, CaptureRemovesBuildings, CaptureRemovesCityDefenses, PlunderType, PlunderAmount, TradeEmbark, MilitaryDomain, CostProgressionModel, CostProgressionParam1, Appeal, Housing, Entertainment, OnePerCity, AllowsHolyCity, Maintenance, AirSlots, CitizenSlots, TravelTime, CityStrengthModifier, AdjacentToLand, CanAttack, AdvisorType, CaptureRemovesDistrict
+		(DistrictType,				Name,							Description,							TraitType,									PrereqTech, PrereqCivic, Coast, Cost,			RequiresPlacement, RequiresPopulation, NoAdjacentCity, CityCenter, Aqueduct, InternalOnly, ZOC, FreeEmbark, HitPoints, CaptureRemovesBuildings, CaptureRemovesCityDefenses, PlunderType, PlunderAmount, TradeEmbark, MilitaryDomain, CostProgressionModel, CostProgressionParam1, Appeal, Housing, Entertainment, OnePerCity, AllowsHolyCity, Maintenance, AirSlots, CitizenSlots, TravelTime, CityStrengthModifier, AdjacentToLand, CanAttack, AdvisorType, CaptureRemovesDistrict)
+SELECT	'DISTRICT_EPN_HAGWON',		'LOC_DISTRICT_EPN_HAGWON_NAME',	'LOC_DISTRICT_EPN_HAGWON_DESCRIPTION',	'TRAIT_CIVILIZATION_DISTRICT_EPN_HAGWON',	PrereqTech, PrereqCivic, Coast, ROUND(Cost/2),	RequiresPlacement, RequiresPopulation, NoAdjacentCity, CityCenter, Aqueduct, InternalOnly, ZOC, FreeEmbark, HitPoints, CaptureRemovesBuildings, CaptureRemovesCityDefenses, PlunderType, PlunderAmount, TradeEmbark, MilitaryDomain, CostProgressionModel, CostProgressionParam1, Appeal, Housing, Entertainment, OnePerCity, AllowsHolyCity, Maintenance, AirSlots, CitizenSlots, TravelTime, CityStrengthModifier, AdjacentToLand, CanAttack,	AdvisorType, CaptureRemovesDistrict
 FROM Districts WHERE DistrictType = 'DISTRICT_CAMPUS';
 -----------------------------------------------------------------------------------
 -- DistrictReplaces
