@@ -13,7 +13,7 @@
 
 		<!--CIV Icons-->
 
-		<Row Name="ICON_ATLAS_CIV_CUSTOM" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_CUSTOM_32.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CUSTOM" IconSize="36"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_CUSTOM_32.dds"/>
 		<Row Name="ICON_ATLAS_CIV_CUSTOM" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_CUSTOM_45.dds"/>
 		<Row Name="ICON_ATLAS_CIV_CUSTOM" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_CUSTOM_50.dds"/>
 		<Row Name="ICON_ATLAS_CIV_CUSTOM" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_CUSTOM_55.dds"/>
