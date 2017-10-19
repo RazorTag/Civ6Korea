@@ -262,7 +262,7 @@
 		<Element>
 			<consumerName text="Civilizations"/>
 			<relativeArtDefPaths>
-				<!--<Element text="Civilizations.artdef"/>-->
+				<Element text="Civilizations.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -270,7 +270,7 @@
 		<Element>
 			<consumerName text="Cultures"/>
 			<relativeArtDefPaths>
-				<!--<Element text="Cultures.artdef"/>-->
+				<Element text="Cultures.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -308,9 +308,9 @@
 			<relativeArtDefPaths>
 				<Element text="Civilizations.artdef"/>
 				<Element text="Cultures.artdef"/>
-				<!--<Element text="Districts.artdef"/>
 				<Element text="Leaders.artdef"/>
-				<Element text="Landmarks.artdef"/>-->
+				<Element text="Districts.artdef"/>
+				<Element text="Landmarks.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -328,7 +328,7 @@
 		<Element>
 			<consumerName text="Leaders"/>
 			<relativeArtDefPaths>
-				<!--<Element text="Leaders.artdef"/>-->
+				<Element text="Leaders.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Leader"/>
