@@ -51,6 +51,9 @@
     <Content Include="ArtDefs\Leaders.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ArtDefs\Walls.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Core\GameInfo.xml">
       <SubType>Content</SubType>
     </Content>

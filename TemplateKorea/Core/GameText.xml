@@ -385,7 +385,7 @@
 		</Row>
 		<!--AI Rejects-->
 		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_EPN_SEJONG_ANY" Language="en_US">
-			<Text>Lol, I don't want your Delegation...</Text>
+			<Text>I don't like you.</Text>
 		</Row>
 		<!--AI Requests -->
 		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_EPN_SEJONG_ANY" Language="en_US">
