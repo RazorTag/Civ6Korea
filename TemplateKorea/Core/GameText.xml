@@ -22,7 +22,7 @@
 			<Text>Hanyangdoseong</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_EPN_HANYANGDOSEONG_DESCRIPTION" Language="en_US">
-			<Text>Replaces ancient walls. Half the production cost of ancient walls. Provides +1 [ICON_Culture] Culture.</Text>
+			<Text>Replaces ancient walls. Half the production cost of ancient walls. Provides +1 [ICON_Culture] Culture. Provides Walls around the City Center and Encampment district. Walls allow [ICON_Ranged] Ranged Strikes from the City Center and Encampment district, and must be defeated before a city can be assaulted. Provides 1 [ICON_TOURISM] Tourism after advancing to the Conservation Civic.</Text>
 		</Row>
 
 		<Row Tag="LOC_DISTRICT_EPN_HAGWON_NAME" Language="en_US">

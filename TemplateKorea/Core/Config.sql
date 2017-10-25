@@ -11,7 +11,7 @@ VALUES	('CIVILIZATION_EPN_KOREA',	'LEADER_LEADER_CUSTOM_NEUTRAL.dds',	'LEADER_JO
 
 -------------------------------------
 -- PlayerItems
--------------------------------------	
+-------------------------------------
 INSERT INTO PlayerItems
 		(CivilizationType,					LeaderType,						Type,								Icon,									Name,									  	Description,										SortIndex)
 VALUES	('CIVILIZATION_EPN_KOREA',		'LEADER_EPN_SEJONG',		'BUILDING_EPN_HANYANGDOSEONG',		'ICON_BUILDING_EPN_HANYANGDOSEONG',		'LOC_BUILDING_EPN_HANYANGDOSEONG_NAME',		'LOC_BUILDING_EPN_HANYANGDOSEONG_DESCRIPTION',		30),

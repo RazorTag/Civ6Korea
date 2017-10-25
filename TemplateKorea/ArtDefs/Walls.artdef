@@ -15,7 +15,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..StringValue">
-							<m_Value text="BUILDING_HANYANGDOSEONG"/>
+							<m_Value text="BUILDING_EPN_HANYANGDOSEONG"/>
 							<m_ParamName text="Gameplay Name"/>
 						</Element>
 						<Element class="AssetObjects..IntValue">
