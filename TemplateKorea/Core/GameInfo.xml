@@ -11,28 +11,4 @@
 		<Row CivilizationType="CIVILIZATION_EPN_KOREA" ResourceType="RESOURCE_IRON" Tier="1"/>
 	</StartBiasResources>
 
-	<District_Adjacencies>
-		<Row DistrictType="DISTRICT_EPN_HAGWON" YieldChangeId="Mountains_Science1_EPN"/>
-		<Row DistrictType="DISTRICT_EPN_HAGWON" YieldChangeId="Mountains_Science2_EPN"/>
-		<Row DistrictType="DISTRICT_EPN_HAGWON" YieldChangeId="Mountains_Science3_EPN"/>
-		<Row DistrictType="DISTRICT_EPN_HAGWON" YieldChangeId="Mountains_Science4_EPN"/>
-		<Row DistrictType="DISTRICT_EPN_HAGWON" YieldChangeId="Mountains_Science5_EPN"/>
-		<Row DistrictType="DISTRICT_EPN_HAGWON" YieldChangeId="Jungle_Science_EPN"/>
-		<Row DistrictType="DISTRICT_EPN_HAGWON" YieldChangeId="District_Science_EPN"/>
-	</District_Adjacencies>
-
-	<Adjacency_YieldChanges>
-		<Row ID="Mountains_Science1_EPN" Description="LOC_DISTRICT_MOUNTAINS_SCIENCE1_EPN" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_GRASS_MOUNTAIN"/>
-		<Row ID="Mountains_Science2_EPN" Description="LOC_DISTRICT_MOUNTAINS_SCIENCE2_EPN" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_PLAINS_MOUNTAIN"/>
-		<Row ID="Mountains_Science3_EPN" Description="LOC_DISTRICT_MOUNTAINS_SCIENCE3_EPN" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_DESERT_MOUNTAIN"/>
-		<Row ID="Mountains_Science4_EPN" Description="LOC_DISTRICT_MOUNTAINS_SCIENCE4_EPN" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_TUNDRA_MOUNTAIN"/>
-		<Row ID="Mountains_Science5_EPN" Description="LOC_DISTRICT_MOUNTAINS_SCIENCE5_EPN" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_SNOW_MOUNTAIN"/>
-		<Row ID="Jungle_Science_EPN" Description="LOC_DISTRICT_JUNGLE_SCIENCE_EPN" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="2" AdjacentFeature="FEATURE_JUNGLE"/>
-		<Row ID="District_Science_EPN" Description="LOC_DISTRICT_DISTRICT_SCIENCE_EPN" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="2" OtherDistrictAdjacent="true"/>
-	</Adjacency_YieldChanges>
-
-	<District_CitizenYieldChanges>
-		<Row DistrictType="DISTRICT_EPN_HAGWON" YieldType="YIELD_SCIENCE" YieldChange="5" />
-	</District_CitizenYieldChanges>
-
 </GameInfo>

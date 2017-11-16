@@ -255,6 +255,7 @@ INSERT INTO TraitModifiers
 VALUES	('TRAIT_CIVILIZATION_EPN_GLORY',					'EPN_TRAIT_CITY_OUTER_STRENGTH'),
 		('TRAIT_CIVILIZATION_EPN_GLORY',					'EPN_TRAIT_CITY_RANGED_STRENGTH'),
 		('TRAIT_CIVILIZATION_EPN_GLORY',					'EPN_TRAIT_FRIENDLY_MOVEMENT');
+
 --------------------------------------------------------------------------------------------------------------------------
 -- Modifiers
 --------------------------------------------------------------------------------------------------------------------------
@@ -263,6 +264,7 @@ INSERT INTO Modifiers
 VALUES	('EPN_TRAIT_CITY_OUTER_STRENGTH',							'MODIFIER_PLAYER_CITIES_ADJUST_OUTER_DEFENSE'),
 		('EPN_TRAIT_CITY_RANGED_STRENGTH',							'MODIFIER_PLAYER_CITIES_ADJUST_RANGED_STRIKE'),
 		('EPN_TRAIT_FRIENDLY_MOVEMENT',								'MODIFIER_PLAYER_UNITS_ADJUST_FRIENDLY_TERRITORY_START_MOVEMENT');
+
 --------------------------------------------------------------------------------------------------------------------------
 -- ModifierArguments
 --------------------------------------------------------------------------------------------------------------------------
@@ -282,6 +284,7 @@ VALUES	('EPN_TRAIT_CITY_OUTER_STRENGTH',							'Amount',					15),
 INSERT INTO Types
 		(Type,								Kind)
 VALUES	('BUILDING_EPN_HANYANGDOSEONG',		'KIND_BUILDING');
+
 --------------------------------------------------------------------------------------------------------------------------
 -- Buildings
 --------------------------------------------------------------------------------------------------------------------------	
@@ -289,12 +292,14 @@ INSERT INTO Buildings
 		(BuildingType,					Name,									Description,									AdvisorType,		TraitType,											Cost,				PrereqTech, PrereqCivic, MaxPlayerInstances, MaxWorldInstances, Capital, PrereqDistrict, AdjacentDistrict, RequiresPlacement, RequiresRiver, OuterDefenseHitPoints, Housing, Entertainment, AdjacentResource, Coast, EnabledByReligion, AllowsHolyCity, PurchaseYield, MustPurchase, Maintenance, IsWonder, OuterDefenseStrength, CitizenSlots, MustBeLake, MustNotBeLake, RegionalRange, AdjacentToMountain, ObsoleteEra, RequiresReligion, GrantFortification, DefenseModifier, InternalOnly, RequiresAdjacentRiver, Quote, QuoteAudio, MustBeAdjacentLand, AdjacentCapital, AdjacentImprovement, CityAdjacentTerrain)
 SELECT  'BUILDING_EPN_HANYANGDOSEONG',	'LOC_BUILDING_EPN_HANYANGDOSEONG_NAME',	'LOC_BUILDING_EPN_HANYANGDOSEONG_DESCRIPTION',	'ADVISOR_CULTURE',	'TRAIT_CIVILIZATION_BUILDING_EPN_HANYANGDOSEONG',	ROUND(Cost*0.5),	PrereqTech, PrereqCivic, MaxPlayerInstances, MaxWorldInstances, Capital, PrereqDistrict, AdjacentDistrict, RequiresPlacement, RequiresRiver, OuterDefenseHitPoints, Housing, Entertainment, AdjacentResource, Coast, EnabledByReligion, AllowsHolyCity, PurchaseYield, MustPurchase, Maintenance, IsWonder, OuterDefenseStrength, CitizenSlots, MustBeLake, MustNotBeLake, RegionalRange, AdjacentToMountain, ObsoleteEra, RequiresReligion, GrantFortification, DefenseModifier, InternalOnly, RequiresAdjacentRiver, Quote, QuoteAudio, MustBeAdjacentLand, AdjacentCapital, AdjacentImprovement, CityAdjacentTerrain
 FROM Buildings WHERE BuildingType = 'BUILDING_WALLS';
+
 -----------------------------------------------------------------------------------
 -- BuildingReplaces
 -----------------------------------------------------------------------------------
 INSERT INTO BuildingReplaces
 			(CivUniqueBuildingType,					ReplacesBuildingType)
 VALUES		('BUILDING_EPN_HANYANGDOSEONG',			'BUILDING_WALLS');
+
 -----------------------------------------------------------------------------------
 -- BuildingPrereqs
 -----------------------------------------------------------------------------------
@@ -302,6 +307,7 @@ INSERT INTO BuildingPrereqs
 			(Building,						PrereqBuilding)
 SELECT		'BUILDING_EPN_HANYANGDOSEONG',	PrereqBuilding
 FROM BuildingPrereqs WHERE Building = 'BUILDING_WALLS';
+
 -----------------------------------------------------------------------------------
 -- Unit_BuildingPrereqs
 -----------------------------------------------------------------------------------
@@ -309,6 +315,7 @@ INSERT INTO Unit_BuildingPrereqs
 			(Unit,	PrereqBuilding)
 SELECT		Unit,	'BUILDING_EPN_HANYANGDOSEONG'
 FROM Unit_BuildingPrereqs WHERE PrereqBuilding = 'BUILDING_WALLS';
+
 -----------------------------------------------------------------------------------
 -- Building_YieldChanges
 -----------------------------------------------------------------------------------	
@@ -326,6 +333,7 @@ VALUES	('BUILDING_EPN_HANYANGDOSEONG',	'YIELD_CULTURE', 		1);
 INSERT INTO Types
 		(Type,						Kind)
 VALUES	('DISTRICT_EPN_HAGWON',		'KIND_DISTRICT');
+
 -----------------------------------------------------------------------------------
 -- Districts
 -----------------------------------------------------------------------------------
@@ -333,12 +341,14 @@ INSERT INTO Districts
 		(DistrictType,				Name,							Description,							TraitType,									PrereqTech, PrereqCivic, Coast, Cost,			RequiresPlacement, RequiresPopulation, NoAdjacentCity, CityCenter, Aqueduct, InternalOnly, ZOC, FreeEmbark, HitPoints, CaptureRemovesBuildings, CaptureRemovesCityDefenses, PlunderType, PlunderAmount, TradeEmbark, MilitaryDomain, CostProgressionModel, CostProgressionParam1, Appeal, Housing, Entertainment, OnePerCity, AllowsHolyCity, Maintenance, AirSlots, CitizenSlots, TravelTime, CityStrengthModifier, AdjacentToLand, CanAttack, AdvisorType, CaptureRemovesDistrict)
 SELECT	'DISTRICT_EPN_HAGWON',		'LOC_DISTRICT_EPN_HAGWON_NAME',	'LOC_DISTRICT_EPN_HAGWON_DESCRIPTION',	'TRAIT_CIVILIZATION_DISTRICT_EPN_HAGWON',	PrereqTech, PrereqCivic, Coast, ROUND(Cost/2),	RequiresPlacement, RequiresPopulation, NoAdjacentCity, CityCenter, Aqueduct, InternalOnly, ZOC, FreeEmbark, HitPoints, CaptureRemovesBuildings, CaptureRemovesCityDefenses, PlunderType, PlunderAmount, TradeEmbark, MilitaryDomain, CostProgressionModel, CostProgressionParam1, Appeal, Housing, Entertainment, OnePerCity, AllowsHolyCity, Maintenance, AirSlots, CitizenSlots, TravelTime, CityStrengthModifier, AdjacentToLand, CanAttack,	AdvisorType, CaptureRemovesDistrict
 FROM Districts WHERE DistrictType = 'DISTRICT_CAMPUS';
+
 -----------------------------------------------------------------------------------
 -- DistrictReplaces
 -----------------------------------------------------------------------------------
 INSERT INTO DistrictReplaces
 		(CivUniqueDistrictType,		ReplacesDistrictType)
 VALUES	('DISTRICT_EPN_HAGWON',		'DISTRICT_CAMPUS');
+
 -----------------------------------------------------------------------------------
 -- District_GreatPersonPoints
 -----------------------------------------------------------------------------------
@@ -346,6 +356,7 @@ INSERT INTO District_GreatPersonPoints
 		(DistrictType,				GreatPersonClassType,			PointsPerTurn)
 SELECT 	'DISTRICT_EPN_HAGWON',		GreatPersonClassType,			PointsPerTurn
 FROM District_GreatPersonPoints WHERE DistrictType = 'DISTRICT_CAMPUS';
+
 -----------------------------------------------------------------------------------
 -- District_TradeRouteYields
 -----------------------------------------------------------------------------------
@@ -353,6 +364,7 @@ INSERT INTO District_TradeRouteYields
 		(DistrictType,			YieldType, YieldChangeAsOrigin, YieldChangeAsDomesticDestination, YieldChangeAsInternationalDestination)
 SELECT 	'DISTRICT_EPN_HAGWON',	YieldType, YieldChangeAsOrigin, YieldChangeAsDomesticDestination, YieldChangeAsInternationalDestination
 FROM District_TradeRouteYields WHERE DistrictType = 'DISTRICT_CAMPUS';
+
 -----------------------------------------------------------------------------------
 -- District_ValidTerrains
 -----------------------------------------------------------------------------------
@@ -360,35 +372,18 @@ INSERT INTO District_ValidTerrains
 		(DistrictType,			TerrainType)
 SELECT 	'DISTRICT_EPN_HAGWON',	TerrainType
 FROM District_ValidTerrains WHERE DistrictType = 'DISTRICT_CAMPUS';
+
 -----------------------------------------------------------------------------------
 -- District_Adjacencies
 -----------------------------------------------------------------------------------
---INSERT INTO District_Adjacencies
-		--(DistrictType,			YieldChangeId)
---SELECT 	'DISTRICT_EPN_HAGWON',	YieldChangeId
---FROM District_Adjacencies WHERE DistrictType = 'DISTRICT_CAMPUS';
+INSERT INTO District_Adjacencies
+		(DistrictType,			YieldChangeId)
+SELECT 	'DISTRICT_EPN_HAGWON',	YieldChangeId
+FROM District_Adjacencies WHERE DistrictType = 'DISTRICT_CAMPUS';
 
---INSERT INTO District_Adjacencies
-		--(DistrictType,			YieldChangeId)
---VALUES 	('DISTRICT_EPN_HAGWON',	'Mountains_Grass_Science_EPN'),
-		--('DISTRICT_EPN_HAGWON',	'Mountains_Plains_Science_EPN'),
-		--('DISTRICT_EPN_HAGWON',	'Mountains_Desert_Science_EPN'),
-		--('DISTRICT_EPN_HAGWON',	'Mountains_Tundra_Science_EPN'),
-		--('DISTRICT_EPN_HAGWON',	'Mountains_Snow_Science_EPN'),
-		--('DISTRICT_EPN_HAGWON',	'Jungle_Science_EPN'),
-		--('DISTRICT_EPN_HAGWON',	'District_Science_EPN'),
---FROM District_Adjacencies WHERE DistrictType = 'DISTRICT_CAMPUS';
------------------------------------------------------------------------------------
--- Adjacency_YieldChanges
------------------------------------------------------------------------------------
---INSERT INTO Adjacency_YieldChanges
-		--(ID, Description, YieldType, YieldChange, TilesRequired, OtherDistrictAdjacent, AdjacentSeaResource, AdjacentTerrain, AdjacentRiver, AdjacentWonder, AdjacentDistrict, PrereqCivic, PrereqTech, ObsoleteCivic, ObsoleteTech, AdjacentResource, AdjacentResourceClass)
---SELECT	'Mountains_Grass_Science_EPN', Description, YieldType, YieldChange, TilesRequired, OtherDistrictAdjacent, AdjacentSeaResource, AdjacentTerrain, AdjacentRiver, AdjacentWonder, AdjacentDistrict, PrereqCivic, PrereqTech, ObsoleteCivic, ObsoleteTech, AdjacentResource, AdjacentResourceClass
---FROM Adjacency_YieldChanges WHERE 
 -----------------------------------------------------------------------------------
 -- District_CitizenYieldChanges
 -----------------------------------------------------------------------------------
---INSERT INTO District_CitizenYieldChanges
-		--(DistrictType,				YieldType,			YieldChange)
---SELECT 	'DISTRICT_EPN_HAGWON',		'YIELD_SCIENCE',	3 + YieldChange
---FROM District_CitizenYieldChanges WHERE DistrictType = 'DISTRICT_CAMPUS';
+INSERT INTO District_CitizenYieldChanges
+		(DistrictType,				YieldType,			YieldChange)
+VALUES	('DISTRICT_EPN_HAGWON',		'YIELD_SCIENCE',	MAX(5, 2 + (SELECT YieldChange FROM District_CitizenYieldChanges WHERE DistrictType = 'DISTRICT_CAMPUS')));
