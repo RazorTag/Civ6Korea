@@ -3,8 +3,8 @@
 	<m_Version>
 		<major>4</major>
 		<minor>0</minor>
-		<build>235</build>
-		<revision>418</revision>
+		<build>315</build>
+		<revision>805</revision>
 	</m_Version>
 	<m_TemplateName text="DynamicGeo"/>
 	<m_RootCollections>
@@ -36,7 +36,7 @@
 										<m_ParamName text="Unit Length"/>
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="AncientWallTowers"/>
+										<m_ElementName text="HanyangdoseongTowers"/>
 										<m_RootCollectionName text="TowerSet"/>
 										<m_ArtDefPath text="Walls.artdef"/>
 										<m_CollectionIsLocked>false</m_CollectionIsLocked>
@@ -48,7 +48,7 @@
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Eras"/>
 										<m_ParamName text="Era"/>
 									</Element>
 								</m_Values>
@@ -127,10 +127,6 @@
 									<Element>
 										<m_Fields>
 											<m_Values>
-												<Element class="AssetObjects..FloatValue">
-													<m_fValue>5.000000</m_fValue>
-													<m_ParamName text="Opening Width"/>
-												</Element>
 												<Element class="AssetObjects..BLPEntryValue">
 													<m_EntryName text="CityWalls_ANC_gate"/>
 													<m_XLPClass text="DynamicGeometry"/>
@@ -138,6 +134,10 @@
 													<m_BLPPackage text="landmarks/Walls"/>
 													<m_LibraryName text="DynamicGeometry"/>
 													<m_ParamName text="Asset"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>5.000000</m_fValue>
+													<m_ParamName text="Opening Width"/>
 												</Element>
 											</m_Values>
 										</m_Fields>
@@ -152,7 +152,74 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="AncientWallSet"/>
+				<m_Name text="HanyangdoseongSet"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+		<Element>
+			<m_CollectionName text="TowerSet"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Pieces"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>1.000000</m_fValue>
+										<m_ParamName text="Scale"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="CityWalls_ANC_lg_tower"/>
+										<m_XLPClass text="DynamicGeometry"/>
+										<m_XLPPath text="walls.xlp"/>
+										<m_BLPPackage text="landmarks/Walls"/>
+										<m_LibraryName text="DynamicGeometry"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="Tower"/>
+										<m_ParamName text="Type"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Large"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>1.000000</m_fValue>
+										<m_ParamName text="Scale"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="CityWalls_ANC_sm_tower"/>
+										<m_XLPClass text="DynamicGeometry"/>
+										<m_XLPPath text="walls.xlp"/>
+										<m_BLPPackage text="landmarks/Walls"/>
+										<m_LibraryName text="DynamicGeometry"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="Tower"/>
+										<m_ParamName text="Type"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Small"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="HanyangdoseongTowers"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>

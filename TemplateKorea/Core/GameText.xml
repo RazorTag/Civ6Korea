@@ -12,7 +12,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_EPN_GLORY_NAME" Language="en_US">
-			<Text>Turtle Empire</Text>
+			<Text>Hermit Kingdom</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_EPN_GLORY_DESCRIPTION" Language="en_US">
 			<Text>City walls receive +15 [ICON_Strength] Melee strength and +15 [ICON_Ranged] Ranged strength. Units receive +1 [ICON_Movement] Movement on friendly land.</Text>
